@@ -50,6 +50,9 @@ def calculate_standings(df: pd.DataFrame) -> pd.DataFrame:
                     "Pts": 0,
                 }
 
+        if pd.isna(score_a) or pd.isna(score_b):
+            continue
+
         # played
         teams[team_a]["P"] += 1
         teams[team_b]["P"] += 1
