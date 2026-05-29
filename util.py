@@ -158,6 +158,8 @@ def calculate_group_qualifiers(
     third_place_teams = []
 
     for group, standings in standings_by_group.items():
+        if standings.empty or standings["P"].sum() == 0:
+            continue
         if len(standings) >= 1:
             qualifiers[f"Group {group} Winners"] = standings.iloc[0]["Team"]
         if len(standings) >= 2:
