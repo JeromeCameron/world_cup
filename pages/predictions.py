@@ -91,9 +91,13 @@ for tab, value in zip(tabs, groups):
         edited_dfs.append(edited_df)
 
         group_df = pred_with_teams[pred_with_teams["group"] == value]
-        standings = calculate_standings(group_df)
-        st.caption(f"Group {value} table based on your predictions")
-        st.markdown(render_standings_table(standings, value), unsafe_allow_html=True)
+        has_predictions = group_df[["team_a_score", "team_b_score"]].notna().any().any()
+        if has_predictions:
+            standings = calculate_standings(group_df)
+            st.caption(f"Group {value} table based on your predictions")
+            st.markdown(
+                render_standings_table(standings, value), unsafe_allow_html=True
+            )
 
 group_edits = pd.concat(edited_dfs, ignore_index=True)[
     ["match_no", "team_a_score", "team_b_score"]
