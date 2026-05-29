@@ -1,49 +1,1 @@
-name	abbr	group	flag
-Mexico	MX	A	
-South Korea	KR	A	
-Canada	CA	B	
-USA	US	D	
-Haiti	HT	C	
-Australia	AU	D	
-Brazil	BR	C	
-Qatar	QA	B	
-Ivory Coast	CI	E	
-Germany	DE	E	
-Netherlands	NL	F	
-Sweden	SE	F	
-Saudi Arabia	SA	H	
-Spain	ES	H	
-Iran	IR	G	
-Belgium	BE	G	
-France	FR	I	
-Iraq	IQ	I	
-Argentina	AR	J	
-Austria	AT	J	
-Ghana	GH	L	
-England	GB-ENG	L	
-Portugal	PT	K	
-Uzbekistan	UZ	K	
-Czechia	CZ	A	
-Switzerland	CH	B	
-Scotland	GB-SCT	C	
-Turkey	TR	D	
-Ecuador	EC	E	
-Tunisia	TN	F	
-Uruguay	UY	H	
-New Zealand	NZ	G	
-Norway	NO	I	
-Jordan	JO	J	
-Panama	PA	L	
-Colombia	CO	K	
-Morocco	MA	C	
-Bosnia and Herzegovina	BA	B	
-South Africa	ZA	A	
-Curaçao	CW	E	
-Japan	JP	F	
-Paraguay	PY	D	
-Senegal	SN	I	
-Egypt	EG	G	
-Cape Verde	CV	H	
-Croatia	HR	L	
-Algeria	DZ	J	
-Congo DR	CD	K	
+name,abbr,group,flagMexico,mx,A,assets/flags/mx.svgSouth Korea,kr,A,assets/flags/kr.svgCanada,ca,B,assets/flags/ca.svgUSA,us,D,assets/flags/us.svgHaiti,ht,C,assets/flags/ht.svgAustralia,au,D,assets/flags/au.svgBrazil,br,C,assets/flags/br.svgQatar,qa,B,assets/flags/qa.svgIvory Coast,ci,E,assets/flags/ci.svgGermany,de,E,assets/flags/de.svgNetherlands,nl,F,assets/flags/nl.svgSweden,se,F,assets/flags/se.svgSaudi Arabia,sa,H,assets/flags/sa.svgSpain,es,H,assets/flags/es.svgIran,ir,G,assets/flags/ir.svgBelgium,be,G,assets/flags/be.svgFrance,fr,I,assets/flags/fr.svgIraq,iq,I,assets/flags/iq.svgArgentina,ar,J,assets/flags/ar.svgAustria,at,J,assets/flags/at.svgGhana,gh,L,assets/flags/gh.svgEngland,gb-eng,L,assets/flags/gb-eng.svgPortugal,pt,K,assets/flags/pt.svgUzbekistan,uz,K,assets/flags/uz.svgCzechia,cz,A,assets/flags/cz.svgSwitzerland,ch,B,assets/flags/ch.svgScotland,gb-sct,C,assets/flags/gb-sct.svgTurkey,tr,D,assets/flags/tr.svgEcuador,ec,E,assets/flags/ec.svgTunisia,tn,F,assets/flags/tn.svgUruguay,uy,H,assets/flags/uy.svgNew Zealand,nz,G,assets/flags/nz.svgNorway,no,I,assets/flags/no.svgJordan,jo,J,assets/flags/jo.svgPanama,pa,L,assets/flags/pa.svgColombia,co,K,assets/flags/co.svgMorocco,ma,C,assets/flags/ma.svgBosnia and Herzegovina,ba,B,assets/flags/ba.svgSouth Africa,za,A,assets/flags/za.svgCuracao,cw,E,assets/flags/cw.svgJapan,jp,F,assets/flags/jp.svgParaguay,py,D,assets/flags/py.svgSenegal,sn,I,assets/flags/sn.svgEgypt,eg,G,assets/flags/eg.svgCape Verde,cv,H,assets/flags/cv.svgCroatia,hr,L,assets/flags/hr.svgAlgeria,dz,J,assets/flags/dz.svgCongo DR,cd,K,assets/flags/cd.svg

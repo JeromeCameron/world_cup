@@ -1,0 +1,16 @@
+[data-testid="stDataFrameResizable"] {
+    border: none !important;
+}
+
+[data-testid="stButton"] button[kind="secondaryFormSubmit"],
+[data-testid="stButton"] > button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+}
+
+[data-testid="stButton"] > button:hover {
+    background-color: #1b5e20;
+    color: white;
+    border: none;
+}

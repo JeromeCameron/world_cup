@@ -1,0 +1,290 @@
+[
+  {
+    "name": "Mexico",
+    "abbr": "mx",
+    "group": "A",
+    "flag": "🇲🇽"
+  },
+  {
+    "name": "South Korea",
+    "abbr": "kr",
+    "group": "A",
+    "flag": "🇰🇷"
+  },
+  {
+    "name": "Canada",
+    "abbr": "ca",
+    "group": "B",
+    "flag": "🇨🇦"
+  },
+  {
+    "name": "USA",
+    "abbr": "us",
+    "group": "D",
+    "flag": "🇺🇸"
+  },
+  {
+    "name": "Haiti",
+    "abbr": "ht",
+    "group": "C",
+    "flag": "🇭🇹"
+  },
+  {
+    "name": "Australia",
+    "abbr": "au",
+    "group": "D",
+    "flag": "🇦🇺"
+  },
+  {
+    "name": "Brazil",
+    "abbr": "br",
+    "group": "C",
+    "flag": "🇧🇷"
+  },
+  {
+    "name": "Qatar",
+    "abbr": "qa",
+    "group": "B",
+    "flag": "🇶🇦"
+  },
+  {
+    "name": "Ivory Coast",
+    "abbr": "ci",
+    "group": "E",
+    "flag": "🇨🇮"
+  },
+  {
+    "name": "Germany",
+    "abbr": "de",
+    "group": "E",
+    "flag": "🇩🇪"
+  },
+  {
+    "name": "Netherlands",
+    "abbr": "nl",
+    "group": "F",
+    "flag": "🇳🇱"
+  },
+  {
+    "name": "Sweden",
+    "abbr": "se",
+    "group": "F",
+    "flag": "🇸🇪"
+  },
+  {
+    "name": "Saudi Arabia",
+    "abbr": "sa",
+    "group": "H",
+    "flag": "🇸🇦"
+  },
+  {
+    "name": "Spain",
+    "abbr": "es",
+    "group": "H",
+    "flag": "🇪🇸"
+  },
+  {
+    "name": "Iran",
+    "abbr": "ir",
+    "group": "G",
+    "flag": "🇮🇷"
+  },
+  {
+    "name": "Belgium",
+    "abbr": "be",
+    "group": "G",
+    "flag": "🇧🇪"
+  },
+  {
+    "name": "France",
+    "abbr": "fr",
+    "group": "I",
+    "flag": "🇫🇷"
+  },
+  {
+    "name": "Iraq",
+    "abbr": "iq",
+    "group": "I",
+    "flag": "🇮🇶"
+  },
+  {
+    "name": "Argentina",
+    "abbr": "ar",
+    "group": "J",
+    "flag": "🇦🇷"
+  },
+  {
+    "name": "Austria",
+    "abbr": "at",
+    "group": "J",
+    "flag": "🇦🇹"
+  },
+  {
+    "name": "Ghana",
+    "abbr": "gh",
+    "group": "L",
+    "flag": "🇬🇭"
+  },
+  {
+    "name": "England",
+    "abbr": "gb-eng",
+    "group": "L",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+  },
+  {
+    "name": "Portugal",
+    "abbr": "pt",
+    "group": "K",
+    "flag": "🇵🇹"
+  },
+  {
+    "name": "Uzbekistan",
+    "abbr": "uz",
+    "group": "K",
+    "flag": "🇺🇿"
+  },
+  {
+    "name": "Czechia",
+    "abbr": "cz",
+    "group": "A",
+    "flag": "🇨🇿"
+  },
+  {
+    "name": "Switzerland",
+    "abbr": "ch",
+    "group": "B",
+    "flag": "🇨🇭"
+  },
+  {
+    "name": "Scotland",
+    "abbr": "gb-sct",
+    "group": "C",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+  },
+  {
+    "name": "Turkey",
+    "abbr": "tr",
+    "group": "D",
+    "flag": "🇹🇷"
+  },
+  {
+    "name": "Ecuador",
+    "abbr": "ec",
+    "group": "E",
+    "flag": "🇪🇨"
+  },
+  {
+    "name": "Tunisia",
+    "abbr": "tn",
+    "group": "F",
+    "flag": "🇹🇳"
+  },
+  {
+    "name": "Uruguay",
+    "abbr": "uy",
+    "group": "H",
+    "flag": "🇺🇾"
+  },
+  {
+    "name": "New Zealand",
+    "abbr": "nz",
+    "group": "G",
+    "flag": "🇳🇿"
+  },
+  {
+    "name": "Norway",
+    "abbr": "no",
+    "group": "I",
+    "flag": "🇳🇴"
+  },
+  {
+    "name": "Jordan",
+    "abbr": "jo",
+    "group": "J",
+    "flag": "🇯🇴"
+  },
+  {
+    "name": "Panama",
+    "abbr": "pa",
+    "group": "L",
+    "flag": "🇵🇦"
+  },
+  {
+    "name": "Colombia",
+    "abbr": "co",
+    "group": "K",
+    "flag": "🇨🇴"
+  },
+  {
+    "name": "Morocco",
+    "abbr": "ma",
+    "group": "C",
+    "flag": "🇲🇦"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "abbr": "ba",
+    "group": "B",
+    "flag": "🇧🇦"
+  },
+  {
+    "name": "South Africa",
+    "abbr": "za",
+    "group": "A",
+    "flag": "🇿🇦"
+  },
+  {
+    "name": "Curacao",
+    "abbr": "cw",
+    "group": "E",
+    "flag": "🇨🇼"
+  },
+  {
+    "name": "Japan",
+    "abbr": "jp",
+    "group": "F",
+    "flag": "🇯🇵"
+  },
+  {
+    "name": "Paraguay",
+    "abbr": "py",
+    "group": "D",
+    "flag": "🇵🇾"
+  },
+  {
+    "name": "Senegal",
+    "abbr": "sn",
+    "group": "I",
+    "flag": "🇸🇳"
+  },
+  {
+    "name": "Egypt",
+    "abbr": "eg",
+    "group": "G",
+    "flag": "🇪🇬"
+  },
+  {
+    "name": "Cape Verde",
+    "abbr": "cv",
+    "group": "H",
+    "flag": "🇨🇻"
+  },
+  {
+    "name": "Croatia",
+    "abbr": "hr",
+    "group": "L",
+    "flag": "🇭🇷"
+  },
+  {
+    "name": "Algeria",
+    "abbr": "dz",
+    "group": "J",
+    "flag": "🇩🇿"
+  },
+  {
+    "name": "Congo DR",
+    "abbr": "cd",
+    "group": "K",
+    "flag": "🇨🇩"
+  }
+]

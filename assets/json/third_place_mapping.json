@@ -1,0 +1,4952 @@
+{
+  "A-B-C-D-E-F-G-H": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-C-D-E-F-G-I": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-E-F-G-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-D-E-F-G-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-F-G-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-C-D-E-F-H-I": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-E-F-H-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-C-D-E-F-H-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-F-H-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "F",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-C-D-E-F-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-E-F-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-F-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-E-F-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-F-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-C-D-E-F-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-G-H-I": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-E-G-H-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-D-E-G-H-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-G-H-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-C-D-E-G-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-D-E-G-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-G-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-E-G-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "J",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-G-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-D-E-G-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-E-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-E-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-H-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-C-D-E-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-E-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-E-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-F-G-H-I": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-F-G-H-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-D-F-G-H-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-F-G-H-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "H"
+  },
+  "A-B-C-D-F-G-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-D-F-G-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-F-G-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-F-G-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "J",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-F-G-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-D-F-G-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-F-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-F-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "F",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-F-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "F",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-F-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-F-H-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "H"
+  },
+  "A-B-C-D-F-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "F",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-F-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-F-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-F-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-F-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-G-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-D-G-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-G-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-G-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "J",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-G-H-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-D-G-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-G-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-G-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-G-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-G-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-D-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-D-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-F-G-H-I": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-E-F-G-H-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-E-F-G-H-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-F-G-H-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-C-E-F-G-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-E-F-G-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-F-G-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-E-F-G-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "J",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-F-G-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-E-F-G-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-F-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-E-F-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-F-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-E-F-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-F-H-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-C-E-F-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-F-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-F-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-E-F-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-F-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-G-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-E-G-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-G-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-E-G-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-G-H-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-C-E-G-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-G-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-G-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-E-G-I-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "C",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-G-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-E-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-E-I-J-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "C",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-F-G-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-F-G-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-F-G-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-F-G-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "J",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-F-G-H-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-C-F-G-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-F-G-I-J-K": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-F-G-I-J-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-F-G-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-F-G-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-F-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-F-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-F-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-F-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-F-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-G-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-G-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-C-G-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-G-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-G-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-C-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-F-G-H-I": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-E-F-G-H-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-D-E-F-G-H-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-F-G-H-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-D-E-F-G-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-D-E-F-G-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-F-G-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-E-F-G-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "J",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-F-G-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-D-E-F-G-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-F-H-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-E-F-H-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-F-H-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-E-F-H-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-F-H-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-D-E-F-H-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-F-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-F-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-E-F-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-F-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-G-H-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-E-G-H-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-G-H-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-E-G-H-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-G-H-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-D-E-G-H-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-G-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-G-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-E-G-I-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-G-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-E-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-E-I-J-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-F-G-H-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-D-F-G-H-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-F-G-H-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-F-G-H-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "J",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-F-G-H-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "A-B-D-F-G-H-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-F-G-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "F",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-F-G-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "F",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-F-G-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-F-G-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "F",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-F-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-F-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-F-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-F-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-F-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-G-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-G-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-D-G-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-G-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-G-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-D-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-F-G-H-I-J": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-E-F-G-H-I-K": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-F-G-H-I-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-E-F-G-H-J-K": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-F-G-H-J-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "E"
+  },
+  "A-B-E-F-G-H-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-F-G-I-J-K": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-F-G-I-J-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-E-F-G-I-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-F-G-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-F-H-I-J-K": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-F-H-I-J-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-E-F-H-I-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-F-H-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-F-I-J-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-G-H-I-J-K": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-G-H-I-J-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-E-G-H-I-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-G-H-J-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-G-I-J-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-E-H-I-J-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-F-G-H-I-J-K": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-F-G-H-I-J-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-B-F-G-H-I-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-F-G-H-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-F-G-I-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-F-H-I-J-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-B-G-H-I-J-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-F-G-H-I": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-E-F-G-H-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-C-D-E-F-G-H-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-F-G-H-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-C-D-E-F-G-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-E-F-G-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-F-G-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-E-F-G-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-F-G-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-C-D-E-F-G-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-F-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-E-F-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-F-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-E-F-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-F-H-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "E"
+  },
+  "A-C-D-E-F-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-F-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-F-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-E-F-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-F-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-G-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-E-G-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-G-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-E-G-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-G-H-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-C-D-E-G-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-G-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-G-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-E-G-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-G-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-E-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-E-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-F-G-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-F-G-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-F-G-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-F-G-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-F-G-H-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "H"
+  },
+  "A-C-D-F-G-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-F-G-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-F-G-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-F-G-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-F-G-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-F-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-F-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-F-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "F",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-F-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "F",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-F-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-G-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-G-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-D-G-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-G-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-G-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-D-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-F-G-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-E-F-G-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-F-G-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-E-F-G-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-F-G-H-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-C-E-F-G-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-F-G-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-F-G-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-E-F-G-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-F-G-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-F-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-F-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-E-F-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-F-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-F-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-G-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-G-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-E-G-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-G-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-G-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-E-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-F-G-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-F-G-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-C-F-G-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-F-G-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-F-G-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-F-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-C-G-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-F-G-H-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-D-E-F-G-H-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-F-G-H-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-D-E-F-G-H-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-F-G-H-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "A-D-E-F-G-H-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-F-G-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-F-G-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-D-E-F-G-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-F-G-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-F-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-F-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "A-D-E-F-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-F-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-F-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-G-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-G-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-D-E-G-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-G-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-G-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-E-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-F-G-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-F-G-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-D-F-G-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-F-G-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-F-G-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-F-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-D-G-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-E-F-G-H-I-J-K": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-E-F-G-H-I-J-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "A-E-F-G-H-I-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-E-F-G-H-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "A-E-F-G-I-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-E-F-H-I-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-E-G-H-I-J-K-L": {
+    "A/B/C/D/F": "A",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "A-F-G-H-I-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "A",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-F-G-H-I": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-E-F-G-H-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "B-C-D-E-F-G-H-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-F-G-H-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "B-C-D-E-F-G-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-E-F-G-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "E",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-F-G-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "E",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-E-F-G-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-F-G-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "B-C-D-E-F-G-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "E",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-F-H-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-E-F-H-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-F-H-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-E-F-H-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-F-H-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "E"
+  },
+  "B-C-D-E-F-H-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-F-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "E",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-F-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "E",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-E-F-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-F-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "E",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-G-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-E-G-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-G-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-E-G-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-G-H-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "B-C-D-E-G-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-G-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-G-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-E-G-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-G-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-E-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-E-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-F-G-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-F-G-H-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-F-G-H-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-F-G-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "D",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-F-G-H-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "J"
+  },
+  "B-C-D-F-G-H-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-F-G-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-F-G-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-F-G-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-F-G-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-F-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-F-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-F-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-F-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-F-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-G-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-G-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-D-G-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-G-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-G-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-D-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-F-G-H-I-J": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-E-F-G-H-I-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-F-G-H-I-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-E-F-G-H-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-F-G-H-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "B-C-E-F-G-H-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-F-G-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-F-G-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-E-F-G-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-F-G-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-F-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-F-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-E-F-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-F-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-F-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-G-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-G-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-E-G-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-G-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-G-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-E-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-F-G-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-F-G-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-C-F-G-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-F-G-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-F-G-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-F-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-C-G-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-F-G-H-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-D-E-F-G-H-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-F-G-H-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-D-E-F-G-H-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-F-G-H-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "B-D-E-F-G-H-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-F-G-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-F-G-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-D-E-F-G-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-F-G-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-F-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-F-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "B-D-E-F-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "I",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-F-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-F-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-G-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-G-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "B-D-E-G-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-G-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-G-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-E-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-F-G-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-F-G-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "B-D-F-G-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-F-G-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-F-G-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "I",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-F-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-D-G-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-E-F-G-H-I-J-K": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-E-F-G-H-I-J-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "B-E-F-G-H-I-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "B-E-F-G-H-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-E-F-G-I-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-E-F-H-I-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "H",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-E-G-H-I-J-K-L": {
+    "A/B/C/D/F": "B",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "B-F-G-H-I-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "B",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-F-G-H-I-J": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "C-D-E-F-G-H-I-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-F-G-H-I-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "C-D-E-F-G-H-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "E",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-F-G-H-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "E"
+  },
+  "C-D-E-F-G-H-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-F-G-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-F-G-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "C-D-E-F-G-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-F-G-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-F-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-F-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "I"
+  },
+  "C-D-E-F-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "E",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-F-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-F-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "I",
+    "B/E/F/I/J": "E",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-G-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-G-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "C-D-E-G-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-G-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-G-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-E-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-F-G-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-F-G-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "C-D-F-G-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-F-G-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-F-G-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-F-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "C",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "C-D-G-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "D",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-E-F-G-H-I-J-K": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-E-F-G-H-I-J-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "C-E-F-G-H-I-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-E-F-G-H-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-E-F-G-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "C-E-F-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "C-E-G-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "C-F-G-H-I-J-K-L": {
+    "A/B/C/D/F": "C",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "D-E-F-G-H-I-J-K": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "I",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "D-E-F-G-H-I-J-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "I"
+  },
+  "D-E-F-G-H-I-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "D-E-F-G-H-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "J",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "D-E-F-G-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "D-E-F-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "D-E-G-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  },
+  "D-F-G-H-I-J-K-L": {
+    "A/B/C/D/F": "D",
+    "A/E/H/I/J": "J",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "F",
+    "C/E/F/H/I": "H",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "G",
+    "E/H/I/J/K": "K"
+  },
+  "E-F-G-H-I-J-K-L": {
+    "A/B/C/D/F": "F",
+    "A/E/H/I/J": "H",
+    "B/E/F/I/J": "I",
+    "C/D/F/G/H": "G",
+    "C/E/F/H/I": "E",
+    "D/E/I/J/L": "L",
+    "E/F/G/I/J": "J",
+    "E/H/I/J/K": "K"
+  }
+}

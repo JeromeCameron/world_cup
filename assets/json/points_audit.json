@@ -1,0 +1,62 @@
+{
+  "ricky": [
+    {
+      "match_no": 1,
+      "winners_picked": 0,
+      "scores_predicted": 0,
+      "total_goals": 0,
+      "goal_difference": 0,
+      "bonus_points": 0,
+      "total": 0
+    },
+    {
+      "match_no": null,
+      "winners_picked": 0,
+      "scores_predicted": 0,
+      "total_goals": 0,
+      "goal_difference": 0,
+      "bonus_points": 0.0,
+      "total": 0.0
+    }
+  ],
+  "data": [
+    {
+      "match_no": 1,
+      "winners_picked": 2,
+      "scores_predicted": 0,
+      "total_goals": 0,
+      "goal_difference": 0,
+      "bonus_points": 0,
+      "total": 2
+    },
+    {
+      "match_no": null,
+      "winners_picked": 0,
+      "scores_predicted": 0,
+      "total_goals": 0,
+      "goal_difference": 0,
+      "bonus_points": 1.0,
+      "total": 1.0
+    }
+  ],
+  "oovv": [
+    {
+      "match_no": 1,
+      "winners_picked": 0,
+      "scores_predicted": 0,
+      "total_goals": 0,
+      "goal_difference": 0,
+      "bonus_points": 0,
+      "total": 0
+    },
+    {
+      "match_no": null,
+      "winners_picked": 0,
+      "scores_predicted": 0,
+      "total_goals": 0,
+      "goal_difference": 0,
+      "bonus_points": 0.0,
+      "total": 0.0
+    }
+  ]
+}

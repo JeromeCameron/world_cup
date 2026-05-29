@@ -1,0 +1,105 @@
+﻿match_no,team_a,team_a_score,team_b_score,team_b,match_date,match_time,time_local,group,stage
+1,Mexico,,,South Africa,11-Jun-26,15:00,13:00,A,group
+2,South Korea,,,Czechia,11-Jun-26,22:00,20:00,A,group
+3,Canada,,,Bosnia and Herzegovina,12-Jun-26,15:00,15:00,B,group
+4,USA,,,Paraguay,12-Jun-26,21:00,18:00,D,group
+5,Haiti,,,Scotland,13-Jun-26,21:00,21:00,C,group
+6,Australia,,,Turkey,13-Jun-26,0:00,21:00,D,group
+7,Brazil,,,Morocco,13-Jun-26,18:00,18:00,C,group
+8,Qatar,,,Switzerland,13-Jun-26,15:00,12:00,B,group
+9,Ivory Coast,,,Ecuador,14-Jun-26,19:00,19:00,E,group
+10,Germany,,,Curacao,14-Jun-26,13:00,12:00,E,group
+11,Netherlands,,,Japan,14-Jun-26,16:00,15:00,F,group
+12,Sweden,,,Tunisia,14-Jun-26,22:00,20:00,F,group
+13,Saudi Arabia,,,Uruguay,15-Jun-26,18:00,18:00,H,group
+14,Spain,,,Cape Verde,15-Jun-26,12:00,12:00,H,group
+15,Iran,,,New Zealand,15-Jun-26,21:00,18:00,G,group
+16,Belgium,,,Egypt,15-Jun-26,15:00,12:00,G,group
+17,France,,,Senegal,16-Jun-26,15:00,15:00,I,group
+18,Iraq,,,Norway,16-Jun-26,18:00,18:00,I,group
+19,Argentina,,,Algeria,16-Jun-26,21:00,20:00,J,group
+20,Austria,,,Jordan,16-Jun-26,0:00,21:00,J,group
+21,Ghana,,,Panama,17-Jun-26,19:00,19:00,L,group
+22,England,,,Croatia,17-Jun-26,16:00,15:00,L,group
+23,Portugal,,,Congo DR,17-Jun-26,13:00,12:00,K,group
+24,Uzbekistan,,,Colombia,17-Jun-26,22:00,20:00,K,group
+25,Czechia,,,South Africa,18-Jun-26,12:00,12:00,A,group
+26,Switzerland,,,Bosnia and Herzegovina,18-Jun-26,15:00,12:00,B,group
+27,Canada,,,Qatar,18-Jun-26,18:00,15:00,B,group
+28,Mexico,,,South Korea,18-Jun-26,21:00,19:00,A,group
+29,Brazil,,,Haiti,19-Jun-26,21:00,21:00,C,group
+30,Scotland,,,Morocco,19-Jun-26,18:00,18:00,C,group
+31,Turkey,,,Paraguay,19-Jun-26,0:00,21:00,D,group
+32,USA,,,Australia,19-Jun-26,15:00,12:00,D,group
+33,Germany,,,Ivory Coast,20-Jun-26,16:00,16:00,E,group
+34,Ecuador,,,Curacao,20-Jun-26,20:00,19:00,E,group
+35,Netherlands,,,Sweden,20-Jun-26,13:00,12:00,F,group
+36,Tunisia,,,Japan,20-Jun-26,0:00,22:00,F,group
+37,Uruguay,,,Cape Verde,21-Jun-26,18:00,18:00,H,group
+38,Spain,,,Saudi Arabia,21-Jun-26,12:00,12:00,H,group
+39,Belgium,,,Iran,21-Jun-26,15:00,12:00,G,group
+40,New Zealand,,,Egypt,21-Jun-26,21:00,18:00,G,group
+41,Norway,,,Senegal,22-Jun-26,20:00,20:00,I,group
+42,France,,,Iraq,22-Jun-26,17:00,17:00,I,group
+43,Argentina,,,Austria,22-Jun-26,13:00,12:00,J,group
+44,Jordan,,,Algeria,22-Jun-26,23:00,20:00,J,group
+45,England,,,Ghana,23-Jun-26,16:00,16:00,L,group
+46,Panama,,,Croatia,23-Jun-26,19:00,19:00,L,group
+47,Portugal,,,Uzbekistan,23-Jun-26,13:00,12:00,K,group
+48,Colombia,,,Congo DR,23-Jun-26,22:00,20:00,K,group
+49,Scotland,,,Brazil,24-Jun-26,18:00,18:00,C,group
+50,Morocco,,,Haiti,24-Jun-26,18:00,18:00,C,group
+51,Switzerland,,,Canada,24-Jun-26,15:00,12:00,B,group
+52,Bosnia and Herzegovina,,,Qatar,24-Jun-26,15:00,12:00,B,group
+53,Czechia,,,Mexico,24-Jun-26,21:00,19:00,A,group
+54,South Africa,,,South Korea,24-Jun-26,21:00,19:00,A,group
+55,Curacao,,,Ivory Coast,25-Jun-26,16:00,16:00,E,group
+56,Ecuador,,,Germany,25-Jun-26,16:00,16:00,E,group
+57,Japan,,,Sweden,25-Jun-26,19:00,18:00,F,group
+58,Tunisia,,,Netherlands,25-Jun-26,19:00,18:00,F,group
+59,Turkey,,,USA,25-Jun-26,22:00,19:00,D,group
+60,Paraguay,,,Australia,25-Jun-26,22:00,19:00,D,group
+61,Norway,,,France,26-Jun-26,15:00,15:00,I,group
+62,Senegal,,,Iraq,26-Jun-26,15:00,15:00,I,group
+63,Egypt,,,Iran,26-Jun-26,23:00,20:00,G,group
+64,New Zealand,,,Belgium,26-Jun-26,23:00,20:00,G,group
+65,Cape Verde,,,Saudi Arabia,26-Jun-26,20:00,19:00,H,group
+66,Uruguay,,,Spain,26-Jun-26,20:00,18:00,H,group
+67,Panama,,,England,27-Jun-26,17:00,17:00,L,group
+68,Croatia,,,Ghana,27-Jun-26,17:00,17:00,L,group
+69,Algeria,,,Austria,27-Jun-26,22:00,21:00,J,group
+70,Jordan,,,Argentina,27-Jun-26,22:00,21:00,J,group
+71,Colombia,,,Portugal,27-Jun-26,19:30,19:30,K,group
+72,Congo DR,,,Uzbekistan,27-Jun-26,19:30,19:30,K,group
+73,Group A Runners Up,,,Group B Runners Up,28-Jun-26,15:00,12:00,,round_of_32
+74,Group E Winners,,,Group A/B/C/D/F 3rd Place,29-Jun-26,16:30,16:30,,round_of_32
+75,Group F Winners,,,Group C Runners Up,29-Jun-26,21:00,19:00,,round_of_32
+76,Group C Winners,,,Group F Runners Up,29-Jun-26,13:00,12:00,,round_of_32
+77,Group I Winners,,,Group C/D/F/G/H 3rd Place,30-Jun-26,17:00,17:00,,round_of_32
+78,Group E Runners Up,,,Group I Runners Up,30-Jun-26,13:00,12:00,,round_of_32
+79,Group A Winners,,,Group C/E/F/H/I 3rd Place,30-Jun-26,21:00,19:00,,round_of_32
+80,Group L Winners,,,Group E/H/I/J/K 3rd Place,1-Jul-26,12:00,12:00,,round_of_32
+81,Group D Winners,,,Group B/E/F/I/J 3rd Place,1-Jul-26,20:00,17:00,,round_of_32
+82,Group G Winners,,,Group A/E/H/I/J 3rd Place,1-Jul-26,16:00,13:00,,round_of_32
+83,Group K Runners Up,,,Group L Runners Up,2-Jul-26,19:00,19:00,,round_of_32
+84,Group H Winners,,,Group J Runners Up,2-Jul-26,15:00,12:00,,round_of_32
+85,Group B Winners,,,Group E/F/G/I/J 3rd Place,2-Jul-26,23:00,20:00,,round_of_32
+86,Group J Winners,,,Group H Runners Up,3-Jul-26,18:00,18:00,,round_of_32
+87,Group K Winners,,,Group D/E/I/J/L 3rd Place,3-Jul-26,21:30,20:30,,round_of_32
+88,Group D Runners Up,,,Group G Runners Up,3-Jul-26,14:00,13:00,,round_of_32
+89,Match 74 Winner,,,Match 77 Winner,4-Jul-26,17:00,17:00,,round_of_16
+90,Match 73 Winner,,,Match 75 Winner,4-Jul-26,13:00,12:00,,round_of_16
+91,Match 76 Winner,,,Match 78 Winner,5-Jul-26,16:00,16:00,,round_of_16
+92,Match 79 Winner,,,Match 80 Winner,5-Jul-26,20:00,18:00,,round_of_16
+93,Match 83 Winner,,,Match 84 Winner,6-Jul-26,15:00,14:00,,round_of_16
+94,Match 81 Winner,,,Match 82 Winner,6-Jul-26,20:00,17:00,,round_of_16
+95,Match 86 Winner,,,Match 88 Winner,7-Jul-26,12:00,12:00,,round_of_16
+96,Match 85 Winner,,,Match 87 Winner,7-Jul-26,16:00,13:00,,round_of_16
+97,Match 89 Winner,,,Match 90 Winner,9-Jul-26,16:00,16:00,,quarter_final
+98,Match 93 Winner,,,Match 94 Winner,10-Jul-26,15:00,12:00,,quarter_final
+99,Match 91 Winner,,,Match 92 Winner,11-Jul-26,17:00,17:00,,quarter_final
+100,Match 95 Winner,,,Match 96 Winner,11-Jul-26,21:00,20:00,,quarter_final
+101,Match 97 Winner,,,Match 98 Winner,14-Jul-26,15:00,14:00,,semi_final
+102,Match 99 Winner,,,Match 100 Winner,15-Jul-26,15:00,15:00,,semi_final
+103,Match 101 Loser,,,Match 102 Loser,18-Jul-26,17:00,17:00,,third_place
+104,Match 101 Winner,,,Match 102 Winner,19-Jul-26,15:00,15:00,,final

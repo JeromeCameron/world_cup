@@ -6,6 +6,7 @@ from datetime import date, time
 @dataclass
 class Team:
     name: str
+    abbr: str
     group: str
     flag: str
 

@@ -1,0 +1,9 @@
+create user list
+only users in list are allowed to participate
+once user logs in they will be presented with the home page and guided to the predictions page
+users will enter their predictions which each stage dependent on the previous stage
+users can revise pridictions until the 9 of june
+once the world cup starts match results will be entered into match_results.json
+based on the results users scores based on their prediction is calculated and the leaderboard is updated.
+points will be awarded based on utils/points_calc.py
+create a log of user scores for all to see
