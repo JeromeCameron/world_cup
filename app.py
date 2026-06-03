@@ -2,6 +2,13 @@ import streamlit as st
 
 from utils.auth import check_login, get_firstname
 
+st.set_page_config(
+    page_title="World Cup 2026",
+    page_icon="⚽",
+    layout="centered",
+    initial_sidebar_state="expanded",
+)
+
 # -------  Login page  ---------------------------------------------------------
 if not st.session_state.get("authenticated"):
     st.markdown(
@@ -62,7 +69,7 @@ pages = [
     st.Page("pages/view_predictions.py", title="👀 View Predictions"),
 ]
 
-if st.session_state.get("username") == "data":
+if st.session_state.get("username") == "jimmy":
     pages.append(st.Page("pages/admin.py", title="🎮 Admin"))
 
 pg = st.navigation(pages)

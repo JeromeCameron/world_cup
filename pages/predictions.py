@@ -1,3 +1,5 @@
+from datetime import date
+
 import pandas as pd
 import streamlit as st
 
@@ -32,8 +34,15 @@ matches = matches[
 ]
 
 
+LOCK_DATE = date(2026, 6, 9)
+
 # -------  Auth  ---------------------------------------------------------------
 selected_user = require_login()
+
+if date.today() >= LOCK_DATE:
+    st.header("Predictions 🧠")
+    st.info("The prediction deadline has passed. Predictions are now locked.")
+    st.stop()
 generate_predictions_file(selected_user)
 user_pred_path = f"assets/csv_files/predictions/{selected_user}.csv"
 user_preds = pd.read_csv(user_pred_path)
@@ -53,8 +62,47 @@ pred_with_teams = group_fixtures.merge(
     user_preds[["match_no", "team_a_score", "team_b_score"]], on="match_no", how="left"
 )
 
+KO_STAGES = ["round_of_32", "round_of_16", "quarter_final", "semi_final", "third_place", "final"]
+
+
+def _has_unsaved_changes() -> bool:
+    saved = (
+        user_preds[["match_no", "team_a_score", "team_b_score"]]
+        .fillna(-1)
+        .astype(float)
+        .set_index("match_no")
+    )
+    for key in [f"editor_{g}" for g in groups] + [f"ko_{s}" for s in KO_STAGES]:
+        edited = st.session_state.get(key)
+        if not isinstance(edited, pd.DataFrame) or "match_no" not in edited.columns:
+            continue
+        e = (
+            edited[["match_no", "team_a_score", "team_b_score"]]
+            .fillna(-1)
+            .astype(float)
+            .set_index("match_no")
+            .sort_index()
+        )
+        s = saved.loc[saved.index.isin(e.index)].sort_index()
+        if not e.equals(s):
+            return True
+    return False
+
+
 # -------  Groups Input  -------------------------------------------------------
+total_matches = len(user_preds)
+filled = int(user_preds[["team_a_score", "team_b_score"]].notna().all(axis=1).sum())
+
 st.header("Predictions 🧠")
+st.caption(f"{filled} of {total_matches} matches predicted")
+st.progress(filled / total_matches if total_matches > 0 else 0)
+
+if st.session_state.pop("groups_saved", False):
+    st.toast("Group predictions saved!", icon="✅")
+
+if _has_unsaved_changes():
+    st.warning("You have unsaved changes — click **Save Changes** to keep them.", icon="⚠️")
+
 st.subheader("Group Stage")
 st.markdown(
     "Enter scores for each match in your group, then click **Save** to update your standings and fill in the Round of 32.",
@@ -102,6 +150,14 @@ for tab, value in zip(tabs, groups):
 group_edits = pd.concat(edited_dfs, ignore_index=True)[
     ["match_no", "team_a_score", "team_b_score"]
 ]
+
+if st.button("Save Groups"):
+    group_edits["penalty_winner"] = None
+    remaining = user_preds[~user_preds["match_no"].isin(group_edits["match_no"])]
+    saved = pd.concat([group_edits, remaining], ignore_index=True).sort_values("match_no")
+    saved.to_csv(user_pred_path, index=False)
+    st.session_state["groups_saved"] = True
+    st.rerun()
 
 st.divider()
 # -------  Knockout Stages  ----------------------------------------------------
@@ -174,9 +230,6 @@ for tab, (stage, label) in zip(tabs, stage_labels.items()):
                 edited[["match_no", "team_a_score", "team_b_score", "penalty_winner"]]
             )
 
-if st.session_state.pop("predictions_saved", False):
-    st.success("Changes saved!", icon="✅")
-
 if st.button("Save Changes"):
     group_edits["penalty_winner"] = None
     all_edits = pd.concat([group_edits] + knockout_edits, ignore_index=True)
@@ -185,5 +238,8 @@ if st.button("Save Changes"):
     saved.to_csv(user_pred_path, index=False)
     for stage in stage_labels:
         st.session_state.pop(f"ko_{stage}", None)
-    st.session_state["predictions_saved"] = True
+    st.session_state["knockout_saved"] = True
     st.rerun()
+
+if st.session_state.pop("knockout_saved", False):
+    st.toast("Knockout predictions saved!", icon="✅")

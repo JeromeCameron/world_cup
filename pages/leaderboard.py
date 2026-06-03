@@ -49,11 +49,21 @@ def load_leaderboard() -> pd.DataFrame:
 
 
 st.header("Leaderboard")
+st.caption("Updated after each match result is entered.")
 
 df = load_leaderboard()
 
+
+def _style_leaderboard(df: pd.DataFrame):
+    def row_style(row):
+        if row.name <= 3:
+            return ["font-weight: 700"] * len(row)
+        return ["color: #9e9e9e"] * len(row)
+    return df.style.apply(row_style, axis=1)
+
+
 st.dataframe(
-    df,
+    _style_leaderboard(df),
     hide_index=True,
     use_container_width=True,
     column_config={
@@ -65,7 +75,7 @@ st.dataframe(
 )
 
 st.caption(
-    "Points awarded per match: Winner (2) · Exact Score (3) · Total Goals (2) · Goal Difference (1)"
+    "Points per match: Winner (2) · Exact Score (3) · Total Goals (2) · Goal Difference (1) · R32 Qualifier (0.5 per team)"
 )
 
 # -------  Audit  --------------------------------------------------------------

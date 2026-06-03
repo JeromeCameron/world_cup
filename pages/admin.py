@@ -5,7 +5,13 @@ import pandas as pd
 import streamlit as st
 import yaml
 
-from util import generate_predictions_file
+from util import (
+    build_all_knockout_stages,
+    build_prediction_fixtures,
+    calculate_group_qualifiers,
+    calculate_standings,
+    generate_predictions_file,
+)
 from utils.auth import require_login
 from utils.points_calc import recalculate_all_points
 
@@ -13,9 +19,12 @@ with open("./css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
 RESULTS_PATH = "assets/json/match_results.json"
-ADMIN_USERNAME = "data"
+ADMIN_USERNAME = "jimmy"
 
 selected_user = require_login()
+
+if st.session_state.pop("results_saved", False):
+    st.toast("Results saved and points recalculated.", icon="✅")
 
 if selected_user != ADMIN_USERNAME:
     st.error("You do not have permission to view this page.")
@@ -58,6 +67,7 @@ DISABLED = ["match_no", "team_a", "team_b"]
 
 # -------  Editors  ------------------------------------------------------------
 st.header("Admin: Enter Results")
+st.caption("Enter actual match scores to update the leaderboard and resolve knockout stage brackets.")
 
 groups = results["group"].dropna().unique().tolist()
 edited_dfs: list[pd.DataFrame] = []
@@ -119,13 +129,37 @@ if st.button("Save & Recalculate Points", type="primary"):
     full.reset_index(inplace=True)
     full.to_json(RESULTS_PATH, orient="records", indent=2)
 
+    # Resolve team progressions into knockout rounds
+    ms = pd.read_json("assets/json/matches.json")
+    actual = pd.read_json(RESULTS_PATH)
+
+    group_played = actual[
+        actual["group"].notna()
+        & actual["team_a_score"].notna()
+        & actual["team_b_score"].notna()
+    ].copy()
+
+    standings_by_group = {
+        grp: calculate_standings(gdf)
+        for grp, gdf in group_played.groupby("group")
+    }
+    qualifiers = calculate_group_qualifiers(standings_by_group)
+    all_fixtures = build_prediction_fixtures(ms, qualifiers, actual)
+    resolved_stages = build_all_knockout_stages(all_fixtures)
+
+    actual.set_index("match_no", inplace=True)
+    for stage_df in resolved_stages.values():
+        actual.update(stage_df.set_index("match_no")[["team_a", "team_b"]])
+    actual.reset_index(inplace=True)
+    actual.to_json(RESULTS_PATH, orient="records", indent=2)
+
     recalculate_all_points()
 
     for key in list(st.session_state.keys()):
         if key.startswith("admin_"):
             st.session_state.pop(key)
 
-    st.success("Results saved and points recalculated.")
+    st.session_state["results_saved"] = True
     st.rerun()
 
 # -------  Add User  -----------------------------------------------------------

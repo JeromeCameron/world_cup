@@ -14,6 +14,7 @@ require_login()
 UNLOCK_DATE = date(2026, 6, 9)
 
 st.header("View Predictions")
+st.caption("See what everyone predicted before the tournament started.")
 
 if date.today() < UNLOCK_DATE:
     st.info("Predictions will be visible from **June 9th, 2026** once the submission deadline has passed.")

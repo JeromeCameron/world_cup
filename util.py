@@ -374,6 +374,81 @@ def build_all_knockout_stages(all_fixtures: pd.DataFrame) -> dict[str, pd.DataFr
     return results
 
 
+def render_knockout_bracket(results: pd.DataFrame) -> str:
+    """Renders a round-by-round knockout bracket as HTML match cards."""
+
+    STAGES = [
+        ("round_of_32",  "Round of 32"),
+        ("round_of_16",  "Round of 16"),
+        ("quarter_final","Quarter Finals"),
+        ("semi_final",   "Semi Finals"),
+        ("final",        "Final"),
+        ("third_place",  "Third Place"),
+    ]
+
+    def _is_placeholder(name: str) -> bool:
+        return any(x in str(name) for x in ["Winner", "Loser", "Group", "3rd Place", "Runners"])
+
+    def _card(row) -> str:
+        team_a = row["team_a"]
+        team_b = row["team_b"]
+        raw_a  = row["team_a_score"]
+        raw_b  = row["team_b_score"]
+        pen    = row.get("penalty_winner") if "penalty_winner" in row.index else None
+
+        has_score = pd.notna(raw_a) and pd.notna(raw_b)
+
+        winner = None
+        if has_score:
+            sa, sb = int(raw_a), int(raw_b)
+            if sa > sb:
+                winner = "a"
+            elif sb > sa:
+                winner = "b"
+            elif pd.notna(pen) and pen in ("A", "B"):
+                winner = "a" if pen == "A" else "b"
+
+        def _row_style(side: str) -> str:
+            base = "display:flex;justify-content:space-between;align-items:center;padding:5px 8px;font-size:0.8rem;"
+            if not has_score:
+                return base
+            if winner == side:
+                return base + "font-weight:700;color:#2e7d32;"
+            return base + "color:#bbb;"
+
+        def _team(name: str) -> str:
+            if _is_placeholder(str(name)):
+                return '<span style="color:#ccc;font-style:italic;">TBD</span>'
+            return f"<span>{name}</span>"
+
+        sa_str = str(int(raw_a)) if has_score else ""
+        sb_str = str(int(raw_b)) if has_score else ""
+
+        return (
+            '<div style="border:1px solid #e8e8e8;border-radius:6px;margin-bottom:6px;overflow:hidden;background:#fff;">'
+            f'<div style="{_row_style("a")}border-bottom:1px solid #f5f5f5;">{_team(team_a)}<span>{sa_str}</span></div>'
+            f'<div style="{_row_style("b")}">{_team(team_b)}<span>{sb_str}</span></div>'
+            "</div>"
+        )
+
+    html = '<div style="display:flex;gap:10px;overflow-x:auto;padding-bottom:1rem;">'
+
+    for stage, label in STAGES:
+        stage_df = results[results["stage"] == stage]
+        if stage_df.empty:
+            continue
+        cards = "".join(_card(row) for _, row in stage_df.iterrows())
+        html += (
+            '<div style="flex:0 0 175px;">'
+            f'<div style="font-size:0.72rem;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:8px;">{label}</div>'
+            f"{cards}"
+            "</div>"
+        )
+
+    html += "</div>"
+    return html
+
+
 def render_standings_table(standings: pd.DataFrame, group: str) -> str:
     """Renders a calculated standings DataFrame as a styled HTML table."""
     b = "border: none;"
@@ -402,7 +477,8 @@ def render_standings_table(standings: pd.DataFrame, group: str) -> str:
         </tr>"""
 
     return f"""
-    <table style="width:100%; border-collapse: collapse; margin-bottom: 1rem;">
+    <div style="padding-bottom: 2rem;">
+    <table style="width:100%; border-collapse: collapse;">
         <thead>
             <tr>
                 <th style="border: none; width: 32px;"></th>
@@ -418,7 +494,8 @@ def render_standings_table(standings: pd.DataFrame, group: str) -> str:
             </tr>
         </thead>
         <tbody>{rows}</tbody>
-    </table>"""
+    </table>
+    </div>"""
 
 
 def load_groups(group: str) -> str:
@@ -451,8 +528,8 @@ def load_groups(group: str) -> str:
         counter += 1
 
     grp: str = f"""
-        <br>
-        <table style="width:80%; border: none; border-collapse: collapse;">
+    <div style="padding-bottom: 2.5rem;">
+        <table style="width:100%; border: none; border-collapse: collapse;">
             <tr>
                 <th style="border: none; border-collapse: collapse;"></th>
                 <th style="width:75%; border: none; border-collapse: collapse; font-size: 1.7rem">Group {group}</th>
@@ -467,5 +544,6 @@ def load_groups(group: str) -> str:
             </tr>
             {table_rows}
         </table>
+    </div>
     """
     return grp

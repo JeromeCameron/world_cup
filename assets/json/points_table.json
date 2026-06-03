@@ -1,25 +1,7 @@
 [
   {
-    "username": "ricky",
-    "firstname": "Ricky",
-    "winners_picked": 0,
-    "scores_predicted": 0,
-    "total_goals": 0,
-    "goal_difference": 0,
-    "bonus_points": 0.0
-  },
-  {
-    "username": "data",
-    "firstname": "Jerome",
-    "winners_picked": 2,
-    "scores_predicted": 0,
-    "total_goals": 0,
-    "goal_difference": 0,
-    "bonus_points": 1.0
-  },
-  {
-    "username": "oovv",
-    "firstname": "Ovrian",
+    "username": "jimmy",
+    "firstname": "Jimmy",
     "winners_picked": 0,
     "scores_predicted": 0,
     "total_goals": 0,

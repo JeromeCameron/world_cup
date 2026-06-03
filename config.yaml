@@ -1,8 +1,4 @@
 users:
-- username: data
-  firstname: Jerome
-- username: ricky
-  firstname: Ricky
-- username: oovv
-  firstname: Ovrian
+- username: jimmy
+  firstname: Jimmy
 password_hash: decbee1db0d7ffb02ee8c890622ab21d0fca8882122dfc2c4c92e88912f418cd
