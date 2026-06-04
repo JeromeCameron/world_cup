@@ -37,7 +37,7 @@ def load_leaderboard() -> pd.DataFrame:
     user_map = get_user_map()
     df["firstname"] = df["username"].map(user_map).fillna(df.get("firstname", df["username"]))
     df["total_points"] = df[CATEGORY_COLS].sum(axis=1)
-    df = df.sort_values("total_points", ascending=False).reset_index(drop=True)
+    df = df.sort_values(["total_points", "firstname"], ascending=[False, True]).reset_index(drop=True)
     df.index += 1
     df.insert(0, "rank", df.index.map(lambda i: f"{RANK_ICONS.get(i, i)}"))
     return df[["rank", "firstname"] + CATEGORY_COLS + ["total_points"]]

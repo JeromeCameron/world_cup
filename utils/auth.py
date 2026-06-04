@@ -7,11 +7,18 @@ def _hash(password: str) -> str:
     return hashlib.sha256(password.encode()).hexdigest()
 
 
-def check_login(username: str, password: str) -> bool:
-    from utils.db import get_user_map
-    if _hash(password) != st.secrets["auth"]["password_hash"]:
+def check_default_password(password: str) -> bool:
+    """Validates against the shared default password used for first login."""
+    return _hash(password) == st.secrets["auth"]["password_hash"]
+
+
+def check_personal_password(username: str, password: str) -> bool:
+    """Validates against the user's own password stored in Supabase."""
+    from utils.db import get_user
+    user = get_user(username)
+    if not user or not user.get("password_hash"):
         return False
-    return username in get_user_map()
+    return _hash(password) == user["password_hash"]
 
 
 def get_firstname(username: str) -> str:

@@ -31,6 +31,28 @@ def _records(df: pd.DataFrame) -> list[dict]:
 
 # ── Users ──────────────────────────────────────────────────────────────────────
 
+def get_user(username: str) -> dict | None:
+    rows = (
+        _client().table("users").select("*").eq("username", username).execute().data
+    )
+    return rows[0] if rows else None
+
+
+def set_user_password(username: str, password_hash: str) -> None:
+    from datetime import datetime, timezone
+    _client().table("users").update({
+        "password_hash": password_hash,
+        "last_login": datetime.now(timezone.utc).isoformat(),
+    }).eq("username", username).execute()
+
+
+def update_last_login(username: str) -> None:
+    from datetime import datetime, timezone
+    _client().table("users").update({
+        "last_login": datetime.now(timezone.utc).isoformat(),
+    }).eq("username", username).execute()
+
+
 def get_user_map() -> dict[str, str]:
     rows = _client().table("users").select("username, firstname").execute().data
     return {r["username"]: r["firstname"] for r in rows}
