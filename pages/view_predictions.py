@@ -1,10 +1,10 @@
-import os
 from datetime import date
 
 import pandas as pd
 import streamlit as st
 
 from utils.auth import get_user_map, require_login
+from utils.db import get_predictions
 
 with open("./css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
@@ -31,13 +31,11 @@ user_options = {firstname: username for username, firstname in user_map.items()}
 selected_name = st.selectbox("Select player", options=list(user_options.keys()))
 selected_username = user_options[selected_name]
 
-pred_path = f"assets/csv_files/predictions/{selected_username}.csv"
+preds = get_predictions(selected_username)
 
-if not os.path.exists(pred_path):
+if preds.empty or not preds[["team_a_score", "team_b_score"]].notna().any().any():
     st.warning(f"{selected_name} has not submitted any predictions yet.")
     st.stop()
-
-preds = pd.read_csv(pred_path)[["match_no", "team_a_score", "team_b_score", "penalty_winner"]]
 
 display = ms.merge(preds, on="match_no", how="left")
 

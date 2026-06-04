@@ -1,24 +1,19 @@
-import json
-import os
-
 import pandas as pd
 import streamlit as st
-import yaml
 
 from util import (
     build_all_knockout_stages,
     build_prediction_fixtures,
     calculate_group_qualifiers,
     calculate_standings,
-    generate_predictions_file,
 )
 from utils.auth import require_login
+from utils.db import add_user, get_match_results, save_match_results
 from utils.points_calc import recalculate_all_points
 
 with open("./css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
-RESULTS_PATH = "assets/json/match_results.json"
 ADMIN_USERNAME = "jimmy"
 
 selected_user = require_login()
@@ -31,7 +26,7 @@ if selected_user != ADMIN_USERNAME:
     st.stop()
 
 # -------  Data  ---------------------------------------------------------------
-results = pd.read_json(RESULTS_PATH)
+results = get_match_results()
 results.sort_values("match_no", inplace=True)
 
 STAGE_LABELS = {
@@ -115,7 +110,7 @@ for tab, stage in zip(ko_tabs, knockout_stages):
 if st.button("Save & Recalculate Points", type="primary"):
     all_edits = pd.concat(edited_dfs, ignore_index=True).drop_duplicates("match_no")
 
-    full = pd.read_json(RESULTS_PATH)
+    full = get_match_results()
     full.set_index("match_no", inplace=True)
     all_edits.set_index("match_no", inplace=True)
 
@@ -127,11 +122,10 @@ if st.button("Save & Recalculate Points", type="primary"):
 
     full.update(all_edits[update_cols])
     full.reset_index(inplace=True)
-    full.to_json(RESULTS_PATH, orient="records", indent=2)
 
     # Resolve team progressions into knockout rounds
     ms = pd.read_json("assets/json/matches.json")
-    actual = pd.read_json(RESULTS_PATH)
+    actual = full.copy()
 
     group_played = actual[
         actual["group"].notna()
@@ -151,7 +145,7 @@ if st.button("Save & Recalculate Points", type="primary"):
     for stage_df in resolved_stages.values():
         actual.update(stage_df.set_index("match_no")[["team_a", "team_b"]])
     actual.reset_index(inplace=True)
-    actual.to_json(RESULTS_PATH, orient="records", indent=2)
+    save_match_results(actual)
 
     recalculate_all_points()
 
@@ -178,43 +172,10 @@ if add_submitted:
     if not username or not firstname:
         st.error("Both username and first name are required.")
     else:
-        # Check for duplicates in config.yaml
-        with open("config.yaml", encoding="utf-8") as f:
-            config = yaml.safe_load(f)
-
-        existing = [u["username"] for u in config["users"]]
-        if username in existing:
+        from utils.db import get_user_map
+        if username in get_user_map():
             st.error(f"Username '{username}' already exists.")
         else:
-            # Add to config.yaml
-            config["users"].append({"username": username, "firstname": firstname})
-            with open("config.yaml", "w", encoding="utf-8") as f:
-                yaml.dump(config, f, allow_unicode=True, sort_keys=False)
-
-            # Add to points_table.json
-            with open("assets/json/points_table.json") as f:
-                table = json.load(f)
-            table.append({
-                "username": username,
-                "firstname": firstname,
-                "winners_picked": 0,
-                "scores_predicted": 0,
-                "total_goals": 0,
-                "goal_difference": 0,
-                "bonus_points": 0,
-            })
-            with open("assets/json/points_table.json", "w") as f:
-                json.dump(table, f, indent=2)
-
-            # Add to points_audit.json
-            with open("assets/json/points_audit.json") as f:
-                audit = json.load(f)
-            audit[username] = []
-            with open("assets/json/points_audit.json", "w") as f:
-                json.dump(audit, f, indent=2)
-
-            # Create blank predictions CSV
-            generate_predictions_file(username)
-
+            add_user(username, firstname)
             st.success(f"User '{firstname}' ({username}) added successfully.")
             st.rerun()

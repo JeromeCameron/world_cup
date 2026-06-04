@@ -3,6 +3,7 @@ import streamlit as st
 
 from util import calculate_standings, render_knockout_bracket, render_standings_table
 from utils.auth import require_login
+from utils.db import get_match_results
 
 require_login()
 
@@ -49,19 +50,13 @@ st.dataframe(
     },
 )
 
-ms = pd.read_json("assets/json/matches.json")
-actual = pd.read_json("assets/json/match_results.json")
-
-group_fixtures = ms[ms["group"].notna()][["match_no", "team_a", "team_b", "group"]].copy()
-actual_with_teams = group_fixtures.merge(
-    actual[["match_no", "team_a_score", "team_b_score"]], on="match_no", how="left"
-)
+actual = get_match_results()
 
 st.divider()
 st.subheader("Tournament")
 with st.expander("Groups", expanded=False):
     for group in GROUPS:
-        group_df = actual_with_teams[actual_with_teams["group"] == group]
+        group_df = actual[actual["group"] == group]
         standings = calculate_standings(group_df)
         st.markdown(render_standings_table(standings, group), unsafe_allow_html=True)
 

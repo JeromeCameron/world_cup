@@ -8,10 +8,10 @@ from util import (
     build_prediction_fixtures,
     calculate_group_qualifiers,
     calculate_standings,
-    generate_predictions_file,
     render_standings_table,
 )
 from utils.auth import require_login
+from utils.db import ensure_predictions_exist, get_predictions, save_predictions
 
 with open("./css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
@@ -43,9 +43,8 @@ if date.today() >= LOCK_DATE:
     st.header("Predictions 🧠")
     st.info("The prediction deadline has passed. Predictions are now locked.")
     st.stop()
-generate_predictions_file(selected_user)
-user_pred_path = f"assets/csv_files/predictions/{selected_user}.csv"
-user_preds = pd.read_csv(user_pred_path)
+ensure_predictions_exist(selected_user)
+user_preds = get_predictions(selected_user)
 if "penalty_winner" not in user_preds.columns:
     user_preds["penalty_winner"] = None
 
@@ -155,7 +154,7 @@ if st.button("Save Groups"):
     group_edits["penalty_winner"] = None
     remaining = user_preds[~user_preds["match_no"].isin(group_edits["match_no"])]
     saved = pd.concat([group_edits, remaining], ignore_index=True).sort_values("match_no")
-    saved.to_csv(user_pred_path, index=False)
+    save_predictions(selected_user, saved)
     st.session_state["groups_saved"] = True
     st.rerun()
 
@@ -235,7 +234,7 @@ if st.button("Save Changes"):
     all_edits = pd.concat([group_edits] + knockout_edits, ignore_index=True)
     remaining = user_preds[~user_preds["match_no"].isin(all_edits["match_no"])]
     saved = pd.concat([all_edits, remaining], ignore_index=True).sort_values("match_no")
-    saved.to_csv(user_pred_path, index=False)
+    save_predictions(selected_user, saved)
     for stage in stage_labels:
         st.session_state.pop(f"ko_{stage}", None)
     st.session_state["knockout_saved"] = True

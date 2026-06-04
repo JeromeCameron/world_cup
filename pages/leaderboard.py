@@ -1,17 +1,13 @@
-import json
-
 import pandas as pd
 import streamlit as st
 
 from utils.auth import get_user_map, require_login
+from utils.db import get_points_audit, get_points_table
 
 with open("./css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
 require_login()
-
-POINTS_TABLE_PATH = "assets/json/points_table.json"
-POINTS_AUDIT_PATH = "assets/json/points_audit.json"
 
 CATEGORY_COLS = [
     "winners_picked",
@@ -36,8 +32,7 @@ RANK_ICONS = {1: "🥇", 2: "🥈", 3: "🥉"}
 
 
 def load_leaderboard() -> pd.DataFrame:
-    with open(POINTS_TABLE_PATH) as f:
-        data = json.load(f)
+    data = get_points_table()
     df = pd.DataFrame(data)
     user_map = get_user_map()
     df["firstname"] = df["username"].map(user_map).fillna(df.get("firstname", df["username"]))
@@ -82,11 +77,8 @@ st.caption(
 st.divider()
 st.subheader("Points Breakdown")
 
-with open(POINTS_TABLE_PATH) as f:
-    table_data = json.load(f)
-
-with open(POINTS_AUDIT_PATH) as f:
-    audit_data = json.load(f)
+table_data = get_points_table()
+audit_data = get_points_audit()
 
 matches_df = pd.read_json("assets/json/matches.json")[
     ["match_no", "team_a", "team_b", "stage", "group"]

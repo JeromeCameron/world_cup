@@ -1,7 +1,3 @@
-import glob
-import json
-import os
-
 import pandas as pd
 
 
@@ -48,17 +44,7 @@ def get_goal_diff(match_no: int, fixtures: pd.DataFrame) -> int | None:
     return None if scores is None else scores[0] - scores[1]
 
 
-def calc_points(
-    match_no: int, actual: pd.DataFrame, prediction: pd.DataFrame
-) -> dict:
-    """Returns per-category points for a single match.
-
-    Compares outcomes (A/B/D) rather than team names so prediction CSVs
-    don't need team name columns — only match_no, scores, penalty_winner.
-
-    Keys: match_no, winners_picked, scores_predicted, total_goals,
-          goal_difference, bonus_points, total
-    """
+def calc_points(match_no: int, actual: pd.DataFrame, prediction: pd.DataFrame) -> dict:
     winners_pts = 0
     score_pts = 0
     goals_pts = 0
@@ -96,10 +82,7 @@ def calc_points(
 
 
 def calc_bonus_r32(actual: pd.DataFrame, preds: pd.DataFrame) -> float:
-    """Awards 0.5 points per team correctly predicted to qualify for the R32.
-    Uses actual group stage results to determine real qualifiers, then compares
-    against the user's predicted qualifiers derived from their group scores.
-    """
+    """Awards 0.5 points per team correctly predicted to qualify for the R32."""
     from util import calculate_group_qualifiers, calculate_standings
 
     group_matches = actual[actual["group"].notna()].copy()
@@ -120,7 +103,6 @@ def calc_bonus_r32(actual: pd.DataFrame, preds: pd.DataFrame) -> float:
     if not actual_qualifiers:
         return 0.0
 
-    # Overlay user scores on actual team names to get predicted standings
     group_fixtures = group_matches[["match_no", "team_a", "team_b", "group"]].copy()
     pred_with_teams = group_fixtures.merge(
         preds[["match_no", "team_a_score", "team_b_score"]], on="match_no", how="left"
@@ -141,31 +123,21 @@ def calc_bonus_r32(actual: pd.DataFrame, preds: pd.DataFrame) -> float:
 
 
 def recalculate_all_points() -> None:
-    """Compares every user's predictions against actual results and writes
-    per-match breakdowns to points_audit.json and totals to points_table.json.
-    Only matches that have actual scores are included.
-    """
-    actual = pd.read_json("assets/json/match_results.json")
+    """Recalculates points for all users and writes results to the database."""
+    from utils.db import get_match_results, get_user_map, get_predictions, save_points
+
+    actual = get_match_results()
     played = actual[
         actual["team_a_score"].notna() & actual["team_b_score"].notna()
     ]["match_no"].tolist()
 
-    with open("config.yaml", encoding="utf-8") as f:
-        import yaml
-        config = yaml.safe_load(f)
-    table_index = {u["username"]: u["firstname"] for u in config["users"]}
+    table_index = get_user_map()
 
     audit: dict[str, list] = {}
     table: list[dict] = []
 
-    for path in glob.glob("assets/csv_files/predictions/*.csv"):
-        username = os.path.splitext(os.path.basename(path))[0]
-        if username not in table_index:
-            continue
-
-        firstname = table_index[username]
-
-        preds = pd.read_csv(path)
+    for username, firstname in table_index.items():
+        preds = get_predictions(username)
         user_audit = []
         totals = {
             "winners_picked": 0,
@@ -194,14 +166,6 @@ def recalculate_all_points() -> None:
         })
 
         audit[username] = user_audit
-        table.append({
-            "username": username,
-            "firstname": firstname,
-            **totals,
-        })
+        table.append({"username": username, "firstname": firstname, **totals})
 
-    with open("assets/json/points_audit.json", "w") as f:
-        json.dump(audit, f, indent=2)
-
-    with open("assets/json/points_table.json", "w") as f:
-        json.dump(table, f, indent=2)
+    save_points(table, audit)
