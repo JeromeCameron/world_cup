@@ -110,6 +110,32 @@ def save_match_results(df: pd.DataFrame) -> None:
 
 # ── Predictions ────────────────────────────────────────────────────────────────
 
+def get_predictions_summary() -> pd.DataFrame:
+    """Returns prediction completion per user using server-side counts."""
+    c = _client()
+    total = c.table("match_results").select("match_no", count="exact").execute().count or 0
+    users = get_user_map()
+
+    rows = []
+    for username in users:
+        filled = (
+            c.table("predictions")
+            .select("match_no", count="exact")
+            .eq("username", username)
+            .not_.is_("team_a_score", "null")
+            .not_.is_("team_b_score", "null")
+            .execute()
+            .count
+        ) or 0
+        rows.append({
+            "username": username,
+            "filled": filled,
+            "total": total,
+            "pct": round(filled / total * 100, 1) if total else 0,
+        })
+    return pd.DataFrame(rows)
+
+
 def ensure_predictions_exist(username: str) -> None:
     """Creates blank prediction rows for all matches if the user has none yet."""
     c = _client()

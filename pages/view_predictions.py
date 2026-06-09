@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, datetime, timezone
 
 import pandas as pd
 import streamlit as st
@@ -11,13 +11,13 @@ with open("./css/style.css") as css:
 
 require_login()
 
-UNLOCK_DATE = date(2026, 6, 9)
+UNLOCK_DATE = date(2026, 6, 10)
 
 st.header("View Predictions")
 st.caption("See what everyone predicted before the tournament started.")
 
-if date.today() < UNLOCK_DATE:
-    st.info("Predictions will be visible from **June 9th, 2026** once the submission deadline has passed.")
+if datetime.now(timezone.utc).date() < UNLOCK_DATE:
+    st.info("Predictions will be visible from **June 10th, 2026** once the submission deadline has passed.")
     st.stop()
 
 # -------  Data  ---------------------------------------------------------------

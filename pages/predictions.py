@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, datetime, timezone
 
 import pandas as pd
 import streamlit as st
@@ -34,12 +34,12 @@ matches = matches[
 ]
 
 
-LOCK_DATE = date(2026, 6, 9)
+LOCK_DATE = date(2026, 6, 10)
 
 # -------  Auth  ---------------------------------------------------------------
 selected_user = require_login()
 
-if date.today() >= LOCK_DATE:
+if datetime.now(timezone.utc).date() >= LOCK_DATE:
     st.header("Predictions 🧠")
     st.info("The prediction deadline has passed. Predictions are now locked.")
     st.stop()

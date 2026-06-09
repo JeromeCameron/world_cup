@@ -8,7 +8,7 @@ from util import (
     calculate_standings,
 )
 from utils.auth import require_login
-from utils.db import add_user, get_match_results, save_match_results
+from utils.db import add_user, get_match_results, get_predictions_summary, get_user_map, save_match_results
 from utils.points_calc import recalculate_all_points
 
 with open("./css/style.css") as css:
@@ -63,6 +63,30 @@ DISABLED = ["match_no", "team_a", "team_b"]
 # -------  Editors  ------------------------------------------------------------
 st.header("Admin: Enter Results")
 st.caption("Enter actual match scores to update the leaderboard and resolve knockout stage brackets.")
+
+# -------  Prediction completion  ----------------------------------------------
+st.subheader("Prediction Completion")
+summary = get_predictions_summary()
+user_map = get_user_map()
+summary["Name"] = summary["username"].map(user_map).fillna(summary["username"])
+summary = summary.sort_values(["pct", "Name"], ascending=[False, True]).reset_index(drop=True)
+summary["Progress"] = summary["filled"].astype(str) + " / " + summary["total"].astype(str)
+st.dataframe(
+    summary[["Name", "pct", "Progress"]],
+    hide_index=True,
+    use_container_width=True,
+    column_config={
+        "Name": st.column_config.TextColumn(label="Player"),
+        "pct": st.column_config.ProgressColumn(
+            label="Completion",
+            format="%.0f%%",
+            min_value=0,
+            max_value=100,
+        ),
+        "Progress": st.column_config.TextColumn(label="Predicted"),
+    },
+)
+st.divider()
 
 groups = results["group"].dropna().unique().tolist()
 edited_dfs: list[pd.DataFrame] = []
