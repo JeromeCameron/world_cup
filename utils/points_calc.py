@@ -122,8 +122,54 @@ def calc_bonus_r32(actual: pd.DataFrame, preds: pd.DataFrame) -> float:
     return round(correct * 0.5, 1)
 
 
+def _knockout_winner_points(
+    match_no: int,
+    actual: "pd.DataFrame",
+    preds: "pd.DataFrame",
+    actual_pair: tuple[str, str],
+    pred_pair: tuple[str, str],
+) -> int:
+    """Returns 1 if the user predicted the correct winner but the wrong opponent."""
+    actual_outcome = get_outcome(match_no, actual)
+    predicted_outcome = get_outcome(match_no, preds)
+    if not actual_outcome or not predicted_outcome or actual_outcome in ("D",):
+        return 0
+    actual_winner = actual_pair[0] if actual_outcome == "A" else actual_pair[1]
+    pred_winner = pred_pair[0] if predicted_outcome == "A" else pred_pair[1]
+    return 1 if actual_winner == pred_winner else 0
+
+
+def _resolve_predicted_teams(ms: "pd.DataFrame", preds: "pd.DataFrame") -> dict[int, tuple[str, str]]:
+    """Returns {match_no: (predicted_team_a, predicted_team_b)} for all knockout matches,
+    resolved from the user's own group stage predictions."""
+    from util import (
+        build_all_knockout_stages,
+        build_prediction_fixtures,
+        calculate_group_qualifiers,
+        calculate_standings,
+    )
+    group_fixtures = ms[ms["group"].notna()][["match_no", "team_a", "team_b", "group"]].copy()
+    pred_with_teams = group_fixtures.merge(
+        preds[["match_no", "team_a_score", "team_b_score"]], on="match_no", how="left"
+    )
+    standings_by_group = {
+        grp: calculate_standings(gdf)
+        for grp, gdf in pred_with_teams.groupby("group")
+    }
+    qualifiers = calculate_group_qualifiers(standings_by_group)
+    all_fixtures = build_prediction_fixtures(ms, qualifiers, preds)
+    resolved = build_all_knockout_stages(all_fixtures)
+
+    result = {}
+    for stage_df in resolved.values():
+        for _, row in stage_df.iterrows():
+            result[int(row["match_no"])] = (row["team_a"], row["team_b"])
+    return result
+
+
 def recalculate_all_points() -> None:
     """Recalculates points for all users and writes results to the database."""
+    import pandas as pd
     from utils.db import get_match_results, get_user_map, get_predictions, save_points
 
     actual = get_match_results()
@@ -131,13 +177,20 @@ def recalculate_all_points() -> None:
         actual["team_a_score"].notna() & actual["team_b_score"].notna()
     ]["match_no"].tolist()
 
-    table_index = get_user_map()
+    ms = pd.read_json("assets/json/matches.json")
+    knockout_match_nos = set(ms[ms["stage"] != "group"]["match_no"].tolist())
+    actual_teams = {
+        int(row["match_no"]): (row["team_a"], row["team_b"])
+        for _, row in actual.iterrows()
+    }
 
+    table_index = get_user_map()
     audit: dict[str, list] = {}
     table: list[dict] = []
 
     for username, firstname in table_index.items():
         preds = get_predictions(username)
+        predicted_teams = _resolve_predicted_teams(ms, preds)
         user_audit = []
         totals = {
             "winners_picked": 0,
@@ -148,6 +201,21 @@ def recalculate_all_points() -> None:
         }
 
         for match_no in played:
+            # For knockout matches, check team identity before scoring
+            if match_no in knockout_match_nos:
+                pred_pair = predicted_teams.get(match_no)
+                actual_pair = actual_teams.get(match_no)
+                if pred_pair != actual_pair:
+                    partial = _knockout_winner_points(match_no, actual, preds, actual_pair, pred_pair)
+                    user_audit.append({
+                        "match_no": match_no,
+                        "winners_picked": partial, "scores_predicted": 0,
+                        "total_goals": 0, "goal_difference": 0,
+                        "bonus_points": 0, "total": partial,
+                    })
+                    totals["winners_picked"] += partial
+                    continue
+
             result = calc_points(match_no, actual, preds)
             user_audit.append(result)
             for k in totals:
@@ -157,12 +225,9 @@ def recalculate_all_points() -> None:
         totals["bonus_points"] = bonus
         user_audit.append({
             "match_no": None,
-            "winners_picked": 0,
-            "scores_predicted": 0,
-            "total_goals": 0,
-            "goal_difference": 0,
-            "bonus_points": bonus,
-            "total": bonus,
+            "winners_picked": 0, "scores_predicted": 0,
+            "total_goals": 0, "goal_difference": 0,
+            "bonus_points": bonus, "total": bonus,
         })
 
         audit[username] = user_audit

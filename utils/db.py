@@ -70,6 +70,10 @@ def get_firstname(username: str) -> str:
     return rows[0]["firstname"] if rows else username
 
 
+def delete_user(username: str) -> None:
+    _client().table("users").delete().eq("username", username).execute()
+
+
 def add_user(username: str, firstname: str) -> None:
     c = _client()
     c.table("users").insert({"username": username, "firstname": firstname}).execute()

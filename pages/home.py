@@ -26,14 +26,16 @@ points_df = pd.DataFrame({
         "Match Score",
         "Total Goals Scored",
         "Goal Difference",
+        "Knockout Winner (wrong opponent)",
         "R32 Qualifier (per team)",
     ],
-    "Points": [2, 3, 2, 1, 0.5],
+    "Points": [2, 3, 2, 1, 1, 0.5],
     "Description": [
         "Correctly predicted the winning team (or draw)",
         "Correctly predicted the exact final score",
         "Correctly predicted the total number of goals scored",
         "Correctly predicted the goal difference between the two teams",
+        "Correctly predicted the winner of a knockout match but the wrong opponent qualified",
         "Correctly predicted a team to qualify for the Round of 32",
     ],
 })
@@ -48,6 +50,10 @@ st.dataframe(
         "Points": st.column_config.NumberColumn(format="%g"),
         "Description": st.column_config.TextColumn(),
     },
+)
+st.caption(
+    "⚠️ The 1 point knockout winner bonus only applies when the correct team wins but faced a different opponent than predicted. "
+    "No points are awarded for match score, total goals, or goal difference in this case."
 )
 
 actual = get_match_results()

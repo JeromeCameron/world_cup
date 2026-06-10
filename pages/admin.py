@@ -8,7 +8,7 @@ from util import (
     calculate_standings,
 )
 from utils.auth import require_login
-from utils.db import add_user, get_match_results, get_predictions_summary, get_user_map, save_match_results
+from utils.db import add_user, delete_user, get_match_results, get_predictions_summary, get_user_map, save_match_results
 from utils.points_calc import recalculate_all_points
 
 with open("./css/style.css") as css:
@@ -196,10 +196,37 @@ if add_submitted:
     if not username or not firstname:
         st.error("Both username and first name are required.")
     else:
-        from utils.db import get_user_map
         if username in get_user_map():
             st.error(f"Username '{username}' already exists.")
         else:
             add_user(username, firstname)
             st.success(f"User '{firstname}' ({username}) added successfully.")
             st.rerun()
+
+# -------  Delete User  --------------------------------------------------------
+st.divider()
+st.subheader("Delete User")
+
+deletable_users = {v: k for k, v in get_user_map().items() if k != ADMIN_USERNAME}
+
+if not deletable_users:
+    st.caption("No other users to delete.")
+else:
+    selected_delete = st.selectbox("Select user to delete", options=list(deletable_users.keys()))
+
+    if st.button("Delete User", type="primary"):
+        st.session_state["confirm_delete"] = selected_delete
+
+    if st.session_state.get("confirm_delete") == selected_delete:
+        st.warning(f"Are you sure you want to delete **{selected_delete}**? This will remove all their predictions and points and cannot be undone.")
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("Yes, delete", type="primary", use_container_width=True):
+                delete_user(deletable_users[selected_delete])
+                st.session_state.pop("confirm_delete", None)
+                st.toast(f"User '{selected_delete}' deleted.", icon="✅")
+                st.rerun()
+        with col2:
+            if st.button("Cancel", use_container_width=True):
+                st.session_state.pop("confirm_delete", None)
+                st.rerun()

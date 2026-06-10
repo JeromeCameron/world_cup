@@ -70,7 +70,7 @@ st.dataframe(
 )
 
 st.caption(
-    "Points per match: Winner (2) · Exact Score (3) · Total Goals (2) · Goal Difference (1) · R32 Qualifier (0.5 per team)"
+    "Points per match: Winner (2) · Exact Score (3) · Total Goals (2) · Goal Difference (1) · R32 Qualifier (0.5) · Knockout winner/wrong opponent (1)"
 )
 
 # -------  Audit  --------------------------------------------------------------
