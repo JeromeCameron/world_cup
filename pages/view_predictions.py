@@ -17,13 +17,15 @@ with open("./css/style.css") as css:
 
 current_user = require_login()
 
-UNLOCK_DATE = date(2026, 6, 10)
+UNLOCK_DATE = date(2026, 6, 11)
 
 st.header("View Predictions")
 st.caption("See what everyone predicted before the tournament started.")
 
 if datetime.now(timezone.utc).date() < UNLOCK_DATE and current_user != "jimmy":
-    st.info("Predictions will be visible from **June 10th, 2026** once the submission deadline has passed.")
+    st.info(
+        "Predictions will be visible from **June 10th, 2026** once the submission deadline has passed."
+    )
     st.stop()
 
 # -------  Data  ---------------------------------------------------------------
@@ -42,7 +44,9 @@ if preds.empty or not preds[["team_a_score", "team_b_score"]].notna().any().any(
     st.stop()
 
 # -------  Resolve knockout team names from group predictions  -----------------
-group_fixtures = ms[ms["group"].notna()][["match_no", "team_a", "team_b", "group"]].copy()
+group_fixtures = ms[ms["group"].notna()][
+    ["match_no", "team_a", "team_b", "group"]
+].copy()
 pred_with_teams = group_fixtures.merge(
     preds[["match_no", "team_a_score", "team_b_score"]], on="match_no", how="left"
 )
@@ -56,17 +60,19 @@ all_fixtures = build_prediction_fixtures(ms, qualifiers, preds)
 knockout_stages = build_all_knockout_stages(all_fixtures)
 
 # -------  Column config helpers  ----------------------------------------------
-SCORE_COL = lambda label: st.column_config.NumberColumn(label=label, width="small", format="%d")
-TEXT_COL  = lambda label: st.column_config.TextColumn(label=label)
+SCORE_COL = lambda label: st.column_config.NumberColumn(
+    label=label, width="small", format="%d"
+)
+TEXT_COL = lambda label: st.column_config.TextColumn(label=label)
 
 GROUP_CONFIG = {
-    "match_no":     st.column_config.NumberColumn(label="No.", width="small"),
-    "team_a":       TEXT_COL("Team A"),
+    "match_no": st.column_config.NumberColumn(label="No.", width="small"),
+    "team_a": TEXT_COL("Team A"),
     "team_a_score": SCORE_COL("Score"),
     "team_b_score": SCORE_COL("Score"),
-    "team_b":       TEXT_COL("Team B"),
-    "stage":        None,
-    "group":        None,
+    "team_b": TEXT_COL("Team B"),
+    "stage": None,
+    "group": None,
 }
 
 KNOCKOUT_CONFIG = {
@@ -74,15 +80,30 @@ KNOCKOUT_CONFIG = {
     "penalty_winner": st.column_config.TextColumn(label="Pen.", width="small"),
 }
 
-DISPLAY_GROUP_COLS    = ["match_no", "team_a", "team_a_score", "team_b_score", "team_b", "stage", "group"]
-DISPLAY_KNOCKOUT_COLS = ["match_no", "team_a", "team_a_score", "team_b_score", "team_b", "penalty_winner"]
+DISPLAY_GROUP_COLS = [
+    "match_no",
+    "team_a",
+    "team_a_score",
+    "team_b_score",
+    "team_b",
+    "stage",
+    "group",
+]
+DISPLAY_KNOCKOUT_COLS = [
+    "match_no",
+    "team_a",
+    "team_a_score",
+    "team_b_score",
+    "team_b",
+    "penalty_winner",
+]
 
 # -------  Group stage  --------------------------------------------------------
 st.subheader("Group Stage")
 
-group_display = ms[ms["stage"] == "group"][["match_no", "team_a", "team_b", "stage", "group"]].merge(
-    preds[["match_no", "team_a_score", "team_b_score"]], on="match_no", how="left"
-)
+group_display = ms[ms["stage"] == "group"][
+    ["match_no", "team_a", "team_b", "stage", "group"]
+].merge(preds[["match_no", "team_a_score", "team_b_score"]], on="match_no", how="left")
 groups = sorted(group_display["group"].dropna().unique().tolist())
 tabs = st.tabs(groups)
 

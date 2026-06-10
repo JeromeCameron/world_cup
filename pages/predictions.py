@@ -34,7 +34,7 @@ matches = matches[
 ]
 
 
-LOCK_DATE = date(2026, 6, 10)
+LOCK_DATE = date(2026, 6, 11)
 
 # -------  Auth  ---------------------------------------------------------------
 selected_user = require_login()
@@ -61,7 +61,14 @@ pred_with_teams = group_fixtures.merge(
     user_preds[["match_no", "team_a_score", "team_b_score"]], on="match_no", how="left"
 )
 
-KO_STAGES = ["round_of_32", "round_of_16", "quarter_final", "semi_final", "third_place", "final"]
+KO_STAGES = [
+    "round_of_32",
+    "round_of_16",
+    "quarter_final",
+    "semi_final",
+    "third_place",
+    "final",
+]
 
 
 def _has_unsaved_changes() -> bool:
@@ -100,7 +107,9 @@ if st.session_state.pop("groups_saved", False):
     st.toast("Group predictions saved!", icon="✅")
 
 if _has_unsaved_changes():
-    st.warning("You have unsaved changes — click **Save Changes** to keep them.", icon="⚠️")
+    st.warning(
+        "You have unsaved changes — click **Save Changes** to keep them.", icon="⚠️"
+    )
 
 st.subheader("Group Stage")
 st.markdown(
@@ -153,7 +162,9 @@ group_edits = pd.concat(edited_dfs, ignore_index=True)[
 if st.button("Save Groups"):
     group_edits["penalty_winner"] = None
     remaining = user_preds[~user_preds["match_no"].isin(group_edits["match_no"])]
-    saved = pd.concat([group_edits, remaining], ignore_index=True).sort_values("match_no")
+    saved = pd.concat([group_edits, remaining], ignore_index=True).sort_values(
+        "match_no"
+    )
     save_predictions(selected_user, saved)
     st.session_state["groups_saved"] = True
     st.rerun()
