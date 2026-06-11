@@ -17,7 +17,7 @@ with open("./css/style.css") as css:
 
 current_user = require_login()
 
-UNLOCK_DATE = date(2026, 6, 12)
+UNLOCK_DATE = date(2026, 6, 11)
 
 st.header("View Predictions")
 st.caption("See what everyone predicted before the tournament started.")
@@ -34,7 +34,7 @@ ms = pd.read_json("assets/json/matches.json")
 # -------  User select  --------------------------------------------------------
 user_map = get_user_map()
 user_options = {firstname: username for username, firstname in user_map.items()}
-selected_name = st.selectbox("Select player", options=list(user_options.keys()))
+selected_name = st.selectbox("Select player", options=sorted(user_options.keys()))
 selected_username = user_options[selected_name]
 
 preds = get_predictions(selected_username)

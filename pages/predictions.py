@@ -34,7 +34,7 @@ matches = matches[
 ]
 
 
-LOCK_DATE = date(2026, 6, 12)
+LOCK_DATE = date(2026, 6, 11)
 
 # -------  Auth  ---------------------------------------------------------------
 selected_user = require_login()
