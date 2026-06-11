@@ -17,7 +17,7 @@ with open("./css/style.css") as css:
 
 current_user = require_login()
 
-UNLOCK_DATE = date(2026, 6, 11)
+UNLOCK_DATE = date(2026, 6, 12)
 
 st.header("View Predictions")
 st.caption("See what everyone predicted before the tournament started.")
