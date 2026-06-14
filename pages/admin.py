@@ -8,7 +8,7 @@ from util import (
     calculate_standings,
 )
 from utils.auth import require_login
-from utils.db import add_user, delete_user, get_match_results, get_predictions_summary, get_user_map, save_match_results
+from utils.db import add_user, get_match_results, get_user_map, save_match_results  # delete_user, get_predictions_summary
 from utils.points_calc import recalculate_all_points
 
 with open("./css/style.css") as css:
@@ -65,28 +65,28 @@ st.header("Admin: Enter Results")
 st.caption("Enter actual match scores to update the leaderboard and resolve knockout stage brackets.")
 
 # -------  Prediction completion  ----------------------------------------------
-st.subheader("Prediction Completion")
-summary = get_predictions_summary()
-user_map = get_user_map()
-summary["Name"] = summary["username"].map(user_map).fillna(summary["username"])
-summary = summary.sort_values(["pct", "Name"], ascending=[False, True]).reset_index(drop=True)
-summary["Progress"] = summary["filled"].astype(str) + " / " + summary["total"].astype(str)
-st.dataframe(
-    summary[["Name", "pct", "Progress"]],
-    hide_index=True,
-    use_container_width=True,
-    column_config={
-        "Name": st.column_config.TextColumn(label="Player"),
-        "pct": st.column_config.ProgressColumn(
-            label="Completion",
-            format="%.0f%%",
-            min_value=0,
-            max_value=100,
-        ),
-        "Progress": st.column_config.TextColumn(label="Predicted"),
-    },
-)
-st.divider()
+# st.subheader("Prediction Completion")
+# summary = get_predictions_summary()
+# user_map = get_user_map()
+# summary["Name"] = summary["username"].map(user_map).fillna(summary["username"])
+# summary = summary.sort_values(["pct", "Name"], ascending=[False, True]).reset_index(drop=True)
+# summary["Progress"] = summary["filled"].astype(str) + " / " + summary["total"].astype(str)
+# st.dataframe(
+#     summary[["Name", "pct", "Progress"]],
+#     hide_index=True,
+#     use_container_width=True,
+#     column_config={
+#         "Name": st.column_config.TextColumn(label="Player"),
+#         "pct": st.column_config.ProgressColumn(
+#             label="Completion",
+#             format="%.0f%%",
+#             min_value=0,
+#             max_value=100,
+#         ),
+#         "Progress": st.column_config.TextColumn(label="Predicted"),
+#     },
+# )
+# st.divider()
 
 groups = results["group"].dropna().unique().tolist()
 edited_dfs: list[pd.DataFrame] = []
@@ -204,29 +204,29 @@ if add_submitted:
             st.rerun()
 
 # -------  Delete User  --------------------------------------------------------
-st.divider()
-st.subheader("Delete User")
-
-deletable_users = {v: k for k, v in get_user_map().items() if k != ADMIN_USERNAME}
-
-if not deletable_users:
-    st.caption("No other users to delete.")
-else:
-    selected_delete = st.selectbox("Select user to delete", options=list(deletable_users.keys()))
-
-    if st.button("Delete User", type="primary"):
-        st.session_state["confirm_delete"] = selected_delete
-
-    if st.session_state.get("confirm_delete") == selected_delete:
-        st.warning(f"Are you sure you want to delete **{selected_delete}**? This will remove all their predictions and points and cannot be undone.")
-        col1, col2 = st.columns(2)
-        with col1:
-            if st.button("Yes, delete", type="primary", use_container_width=True):
-                delete_user(deletable_users[selected_delete])
-                st.session_state.pop("confirm_delete", None)
-                st.toast(f"User '{selected_delete}' deleted.", icon="✅")
-                st.rerun()
-        with col2:
-            if st.button("Cancel", use_container_width=True):
-                st.session_state.pop("confirm_delete", None)
-                st.rerun()
+# st.divider()
+# st.subheader("Delete User")
+#
+# deletable_users = {v: k for k, v in get_user_map().items() if k != ADMIN_USERNAME}
+#
+# if not deletable_users:
+#     st.caption("No other users to delete.")
+# else:
+#     selected_delete = st.selectbox("Select user to delete", options=list(deletable_users.keys()))
+#
+#     if st.button("Delete User", type="primary"):
+#         st.session_state["confirm_delete"] = selected_delete
+#
+#     if st.session_state.get("confirm_delete") == selected_delete:
+#         st.warning(f"Are you sure you want to delete **{selected_delete}**? This will remove all their predictions and points and cannot be undone.")
+#         col1, col2 = st.columns(2)
+#         with col1:
+#             if st.button("Yes, delete", type="primary", use_container_width=True):
+#                 delete_user(deletable_users[selected_delete])
+#                 st.session_state.pop("confirm_delete", None)
+#                 st.toast(f"User '{selected_delete}' deleted.", icon="✅")
+#                 st.rerun()
+#         with col2:
+#             if st.button("Cancel", use_container_width=True):
+#                 st.session_state.pop("confirm_delete", None)
+#                 st.rerun()

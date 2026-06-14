@@ -82,18 +82,20 @@ def calc_points(match_no: int, actual: pd.DataFrame, prediction: pd.DataFrame) -
 
 
 def calc_bonus_r32(actual: pd.DataFrame, preds: pd.DataFrame) -> float:
-    """Awards 0.5 points per team correctly predicted to qualify for the R32."""
+    """Awards 0.5 points per team correctly predicted to qualify for the R32.
+    Only calculated once all group stage matches have results."""
     from util import calculate_group_qualifiers, calculate_standings
 
     group_matches = actual[actual["group"].notna()].copy()
     if group_matches.empty:
         return 0.0
 
-    actual_played = group_matches[
-        group_matches["team_a_score"].notna() & group_matches["team_b_score"].notna()
-    ]
-    if actual_played.empty:
+    # Wait until every group match has a result before awarding the bonus
+    all_played = group_matches["team_a_score"].notna() & group_matches["team_b_score"].notna()
+    if not all_played.all():
         return 0.0
+
+    actual_played = group_matches
 
     actual_by_group = {}
     for group, gdf in actual_played.groupby("group"):

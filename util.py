@@ -335,9 +335,11 @@ def build_prediction_fixtures(
     score_cols = ["team_a_score", "team_b_score"]
     if "penalty_winner" in user_preds.columns:
         score_cols.append("penalty_winner")
-    all_fixtures.update(
-        user_preds.drop_duplicates("match_no").set_index("match_no")[score_cols]
-    )
+    preds_update = user_preds.drop_duplicates("match_no").set_index("match_no")[score_cols].copy()
+    for col in ["team_a_score", "team_b_score"]:
+        if col in preds_update.columns:
+            preds_update[col] = pd.to_numeric(preds_update[col], errors="coerce")
+    all_fixtures.update(preds_update)
 
     return all_fixtures.reset_index()
 
