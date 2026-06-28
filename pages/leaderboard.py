@@ -67,6 +67,8 @@ st.dataframe(
     column_config={
         k: st.column_config.TextColumn(label=v)
         if k in ("rank", "firstname")
+        else st.column_config.NumberColumn(label=v, format="%.2f")
+        if k in ("bonus_points", "total_points")
         else st.column_config.NumberColumn(label=v)
         for k, v in COLUMN_LABELS.items()
     },

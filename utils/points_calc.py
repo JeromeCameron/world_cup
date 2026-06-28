@@ -121,7 +121,7 @@ def calc_bonus_r32(actual: pd.DataFrame, preds: pd.DataFrame) -> float:
 
     pred_qualifiers = set(calculate_group_qualifiers(pred_by_group).values())
     correct = len(actual_qualifiers & pred_qualifiers)
-    return round(correct * 0.5, 1)
+    return round(correct * 0.5, 2)
 
 
 def _knockout_winner_points(
