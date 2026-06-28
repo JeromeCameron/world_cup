@@ -370,11 +370,12 @@ score_rows = []
 for _, row in merged.iterrows():
     a_a, a_b = int(row["team_a_score"]), int(row["team_b_score"])
     p_a, p_b = int(row["pred_a"]), int(row["pred_b"])
+    match_exact   = (a_a == p_a) and (a_b == p_b)
     actual_score  = f"{a_a} - {a_b}"
     pred_score    = f"{p_a} - {p_b}"
     label = f"{row['team_a']} vs {row['team_b']}"
-    score_rows.append({"Team": row["team_a"], "actual": a_a, "predicted": p_a, "match": label, "Actual Score": actual_score, "Predicted Score": pred_score})
-    score_rows.append({"Team": row["team_b"], "actual": a_b, "predicted": p_b, "match": label, "Actual Score": actual_score, "Predicted Score": pred_score})
+    score_rows.append({"Team": row["team_a"], "actual": a_a, "predicted": p_a, "match": label, "Actual Score": actual_score, "Predicted Score": pred_score, "Exact": match_exact})
+    score_rows.append({"Team": row["team_b"], "actual": a_b, "predicted": p_b, "match": label, "Actual Score": actual_score, "Predicted Score": pred_score, "Exact": match_exact})
 
 if score_rows:
     score_scatter_df = pd.DataFrame(score_rows)
@@ -382,15 +383,20 @@ if score_rows:
     ref_df = pd.DataFrame({"x": [0, max_s], "y": [0, max_s]})
     ref_line = (
         alt.Chart(ref_df)
-        .mark_line(strokeDash=[5, 5], color="#ccc", strokeWidth=1.5)
+        .mark_line(strokeDash=[5, 5], color="#bbb", strokeWidth=1.5)
         .encode(x=alt.X("x:Q"), y=alt.Y("y:Q"))
     )
     scatter = (
         alt.Chart(score_scatter_df)
-        .mark_circle(size=70, opacity=0.65, color="#2e7d32")
+        .mark_circle(size=55, opacity=0.8)
         .encode(
             x=alt.X("actual:Q",    title="Actual Goals Scored",    scale=alt.Scale(domain=[0, max_s])),
             y=alt.Y("predicted:Q", title="Predicted Goals Scored", scale=alt.Scale(domain=[0, max_s])),
+            color=alt.Color(
+                "Exact:N",
+                scale=alt.Scale(domain=[True, False], range=["#2e7d32", "#ef9a9a"]),
+                legend=alt.Legend(title="Exact prediction", labelExpr="datum.label === 'true' ? 'Yes' : 'No'"),
+            ),
             tooltip=[
                 alt.Tooltip("match:N",           title="Match"),
                 alt.Tooltip("Team:N",            title="Team"),
@@ -398,7 +404,7 @@ if score_rows:
                 alt.Tooltip("Predicted Score:N", title="Predicted Score"),
             ],
         )
-        .properties(height=280, title="Score Predicted vs Actual  ·  points on the diagonal = exact prediction")
+        .properties(height=280, title="Score Predicted vs Actual")
     )
     st.altair_chart(ref_line + scatter, use_container_width=True)
 
