@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 from utils.auth import get_user_map, require_login
-from utils.db import get_points_audit_for_user, get_points_table
+from utils.db import get_match_results, get_points_audit_for_user, get_points_table
 
 with open("./css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
@@ -87,6 +87,17 @@ table_data = get_points_table()
 matches_df = pd.read_json("assets/json/matches.json")[
     ["match_no", "team_a", "team_b", "stage", "group"]
 ]
+actual_teams = get_match_results()[["match_no", "team_a", "team_b"]].rename(
+    columns={"team_a": "team_a_actual", "team_b": "team_b_actual"}
+)
+matches_df = matches_df.merge(actual_teams, on="match_no", how="left")
+matches_df["team_a"] = matches_df["team_a_actual"].where(
+    matches_df["team_a_actual"].notna(), matches_df["team_a"]
+)
+matches_df["team_b"] = matches_df["team_b_actual"].where(
+    matches_df["team_b_actual"].notna(), matches_df["team_b"]
+)
+matches_df = matches_df.drop(columns=["team_a_actual", "team_b_actual"])
 
 user_map = get_user_map()
 user_options = {user_map.get(row["username"], row["username"]): row["username"] for row in table_data}

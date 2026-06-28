@@ -102,6 +102,7 @@ pages = [
     st.Page("pages/predictions.py", title="🤔 Predictions"),
     st.Page("pages/leaderboard.py", title="🏆 Leaderboard"),
     st.Page("pages/view_predictions.py", title="👀 View Predictions"),
+    st.Page("pages/statistics.py", title="📊 Statistics"),
 ]
 
 if st.session_state.get("username") == "jimmy":
