@@ -211,6 +211,19 @@ def get_points_audit() -> dict[str, list]:
     return result
 
 
+def get_points_audit_for_user(username: str) -> list[dict]:
+    data = (
+        _client()
+        .table("points_audit")
+        .select("*")
+        .eq("username", username)
+        .order("id")
+        .execute()
+        .data
+    )
+    return [{k: v for k, v in row.items() if k not in ("id", "username")} for row in data]
+
+
 def save_points(table_data: list[dict], audit_data: dict[str, list]) -> None:
     c = _client()
     c.table("points_table").upsert(table_data).execute()

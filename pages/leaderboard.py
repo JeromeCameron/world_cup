@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 from utils.auth import get_user_map, require_login
-from utils.db import get_points_audit, get_points_table
+from utils.db import get_points_audit_for_user, get_points_table
 
 with open("./css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
@@ -83,7 +83,6 @@ st.divider()
 st.subheader("Points Breakdown")
 
 table_data = get_points_table()
-audit_data = get_points_audit()
 
 matches_df = pd.read_json("assets/json/matches.json")[
     ["match_no", "team_a", "team_b", "stage", "group"]
@@ -94,7 +93,7 @@ user_options = {user_map.get(row["username"], row["username"]): row["username"] 
 selected_name = st.selectbox("Select player", options=list(user_options.keys()))
 selected_username = user_options[selected_name]
 
-entries = audit_data.get(selected_username, [])
+entries = get_points_audit_for_user(selected_username)
 
 if not entries:
     st.info("No match results have been entered yet.")
