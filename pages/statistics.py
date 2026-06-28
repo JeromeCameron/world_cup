@@ -356,40 +356,49 @@ if stage_rows:
     )
     st.altair_chart(stage_chart, use_container_width=True)
 
-# ── Goals predicted vs actual (scatter) ───────────────────────────────────────
+# ── Score predicted vs actual (scatter, one point per team per match) ─────────
 played_actual = actual[
     actual["team_a_score"].notna() & actual["team_b_score"].notna()
 ].copy()
-played_actual["actual_goals"] = played_actual["team_a_score"] + played_actual["team_b_score"]
-
-pred_goals = preds[["match_no", "team_a_score", "team_b_score"]].rename(
+pred_scores = preds[["match_no", "team_a_score", "team_b_score"]].rename(
     columns={"team_a_score": "pred_a", "team_b_score": "pred_b"}
 )
-scatter_df = played_actual.merge(pred_goals, on="match_no", how="inner").dropna(subset=["pred_a", "pred_b"])
-scatter_df["predicted_goals"] = scatter_df["pred_a"] + scatter_df["pred_b"]
-scatter_df["match_label"] = scatter_df["team_a"] + " vs " + scatter_df["team_b"]
+merged = played_actual.merge(pred_scores, on="match_no", how="inner").dropna(subset=["pred_a", "pred_b"])
 
-if not scatter_df.empty:
-    max_g = int(max(scatter_df["actual_goals"].max(), scatter_df["predicted_goals"].max())) + 1
-    ref_df = pd.DataFrame({"x": [0, max_g], "y": [0, max_g]})
+# Two rows per match: one for each team
+score_rows = []
+for _, row in merged.iterrows():
+    a_a, a_b = int(row["team_a_score"]), int(row["team_b_score"])
+    p_a, p_b = int(row["pred_a"]), int(row["pred_b"])
+    actual_score  = f"{a_a} - {a_b}"
+    pred_score    = f"{p_a} - {p_b}"
+    label = f"{row['team_a']} vs {row['team_b']}"
+    score_rows.append({"Team": row["team_a"], "actual": a_a, "predicted": p_a, "match": label, "Actual Score": actual_score, "Predicted Score": pred_score})
+    score_rows.append({"Team": row["team_b"], "actual": a_b, "predicted": p_b, "match": label, "Actual Score": actual_score, "Predicted Score": pred_score})
+
+if score_rows:
+    score_scatter_df = pd.DataFrame(score_rows)
+    max_s = int(max(score_scatter_df["actual"].max(), score_scatter_df["predicted"].max())) + 1
+    ref_df = pd.DataFrame({"x": [0, max_s], "y": [0, max_s]})
     ref_line = (
         alt.Chart(ref_df)
         .mark_line(strokeDash=[5, 5], color="#ccc", strokeWidth=1.5)
         .encode(x=alt.X("x:Q"), y=alt.Y("y:Q"))
     )
     scatter = (
-        alt.Chart(scatter_df)
+        alt.Chart(score_scatter_df)
         .mark_circle(size=70, opacity=0.65, color="#2e7d32")
         .encode(
-            x=alt.X("actual_goals:Q",    title="Actual Goals",    scale=alt.Scale(domain=[0, max_g])),
-            y=alt.Y("predicted_goals:Q", title="Predicted Goals",  scale=alt.Scale(domain=[0, max_g])),
+            x=alt.X("actual:Q",    title="Actual Goals Scored",    scale=alt.Scale(domain=[0, max_s])),
+            y=alt.Y("predicted:Q", title="Predicted Goals Scored", scale=alt.Scale(domain=[0, max_s])),
             tooltip=[
-                alt.Tooltip("match_label:N",    title="Match"),
-                alt.Tooltip("actual_goals:Q",    title="Actual Goals"),
-                alt.Tooltip("predicted_goals:Q", title="Predicted Goals"),
+                alt.Tooltip("match:N",           title="Match"),
+                alt.Tooltip("Team:N",            title="Team"),
+                alt.Tooltip("Actual Score:N",    title="Actual Score"),
+                alt.Tooltip("Predicted Score:N", title="Predicted Score"),
             ],
         )
-        .properties(height=280, title="Goals Predicted vs Actual  ·  points on the diagonal = perfect prediction")
+        .properties(height=280, title="Score Predicted vs Actual  ·  points on the diagonal = exact prediction")
     )
     st.altair_chart(ref_line + scatter, use_container_width=True)
 
